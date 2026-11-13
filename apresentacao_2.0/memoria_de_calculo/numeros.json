@@ -1,0 +1,726 @@
+{
+ "corte": "2026-11-12",
+ "premissas": {
+  "taxa_antiga": 40.0,
+  "horas_semana_pessoa": 5,
+  "horas_mes_produtivas": 160,
+  "fator_custo_empresa": 1.7,
+  "rampa": [
+   0.5,
+   0.5,
+   0.75,
+   0.75
+  ],
+  "prod_plena": 0.9,
+  "fator_coord": 0.9,
+  "h_onboard_victor": 2,
+  "canais_5": 10,
+  "canais_7": 21
+ },
+ "niveis": {
+  "GP": {
+   "nome": "Gerente de Projeto",
+   "salario": 10350,
+   "taxa": 110,
+   "taxa_bruta": 109.96875
+  },
+  "Sr": {
+   "nome": "Sênior",
+   "salario": 9400,
+   "taxa": 100,
+   "taxa_bruta": 99.875
+  },
+  "Pl": {
+   "nome": "Pleno",
+   "salario": 6600,
+   "taxa": 70,
+   "taxa_bruta": 70.125
+  },
+  "Jr": {
+   "nome": "Júnior",
+   "salario": 4200,
+   "taxa": 45,
+   "taxa_bruta": 44.625
+  }
+ },
+ "equipe": [
+  {
+   "id": 0,
+   "nome": "Mirela Andressa de Oliveira",
+   "curto": "Mirela",
+   "papel": "Gerente do Projeto",
+   "nivel": "GP",
+   "taxa": 110
+  },
+  {
+   "id": 3,
+   "nome": "Victor Lis Bronzo",
+   "curto": "Victor",
+   "papel": "Líder Técnico (Dev Full-Stack)",
+   "nivel": "Sr",
+   "taxa": 100
+  },
+  {
+   "id": 1,
+   "nome": "Ana Tayná Reis Maciel",
+   "curto": "Ana",
+   "papel": "Back-End",
+   "nivel": "Pl",
+   "taxa": 70
+  },
+  {
+   "id": 2,
+   "nome": "Mariana Mourão Sampaio",
+   "curto": "Mariana",
+   "papel": "Banco de Dados e QA",
+   "nivel": "Pl",
+   "taxa": 70
+  },
+  {
+   "id": 4,
+   "nome": "Yago Barbosa Dini",
+   "curto": "Yago",
+   "papel": "Front-End",
+   "nivel": "Jr",
+   "taxa": 45
+  }
+ ],
+ "contratados": [
+  {
+   "id": 5,
+   "nome": "Dev Pleno contratado (full-stack)",
+   "curto": "Contratado Pl",
+   "papel": "Dev Full-Stack (contratado)",
+   "nivel": "Pl",
+   "h_semana": 20,
+   "taxa": 70
+  },
+  {
+   "id": 6,
+   "nome": "Dev Júnior contratado (front-end)",
+   "curto": "Contratado Jr",
+   "papel": "Front-End (contratado)",
+   "nivel": "Jr",
+   "h_semana": 20,
+   "taxa": 45
+  }
+ ],
+ "valor_hora": {
+  "taxa_media": 79.0,
+  "custo_hora_equipe": 395,
+  "bac_antigo": 96000.0,
+  "bac_novo": 189600.0,
+  "custo_semestre": 31600.0,
+  "custo_semestre_antigo": 16000.0,
+  "mensal_antigo_pessoa": 866.6666666666666,
+  "mensal_novo_pessoa": {
+   "Mirela": 2383.333333333333,
+   "Victor": 2166.6666666666665,
+   "Ana": 1516.6666666666665,
+   "Mariana": 1516.6666666666665,
+   "Yago": 974.9999999999999
+  },
+  "horas_pessoa_total": 480.0,
+  "custo_pessoa_total": {
+   "Mirela": 52800.0,
+   "Victor": 48000.0,
+   "Ana": 33600.0,
+   "Mariana": 33600.0,
+   "Yago": 21600.0
+  },
+  "reserva_antiga": 9600.0,
+  "reserva_nova": 18960.0,
+  "infra": 1040.0,
+  "infra_incorrido": 220,
+  "orcamento_total_antigo": 106640.0,
+  "orcamento_total_novo": 209600.0
+ },
+ "evm": {
+  "H_VP": 1489,
+  "H_VA": 1489,
+  "H_CR": 1489,
+  "VP": 117631.0,
+  "VA": 117631.0,
+  "CR": 117631.0,
+  "VPr": 0.0,
+  "VC": 0.0,
+  "IDP": 1.0,
+  "IDC": 1.0,
+  "EPT": 71969.0,
+  "H_EPT": 911,
+  "ENT": 189600.0,
+  "IDPT": 1.0,
+  "avanco": 0.6204166666666666,
+  "avanco_s4": 0.7225
+ },
+ "evm_antigo": {
+  "VA_12_10": 55440.0,
+  "VA_12_11": 59560.0,
+  "EPT_12_11": 36440.0
+ },
+ "cronograma": {
+  "R1": "2026-12-06",
+  "h_r1_restante": 111,
+  "base_R2": "2027-06-27",
+  "base_R3": "2027-12-07",
+  "acel_R2": "2027-03-21",
+  "acel_R3": "2027-05-09",
+  "sem_ganhas_R2": 14.0,
+  "sem_ganhas_R3": 30.285714285714285,
+  "inicio_acel": "2026-12-07",
+  "recesso": [
+   "2026-12-21",
+   "2027-01-03"
+  ],
+  "S5": [
+   "2027-03-08",
+   "2027-06-27"
+  ],
+  "S6": [
+   "2027-08-16",
+   "2027-12-05"
+  ],
+  "semanas_contr": 20,
+  "linhas": [
+   {
+    "semana": "2026-12-07",
+    "equipe_h": 0,
+    "contr_pago": 40,
+    "prod": 0.5,
+    "efetivo": 18.0,
+    "acum": 18.0
+   },
+   {
+    "semana": "2026-12-14",
+    "equipe_h": 0,
+    "contr_pago": 40,
+    "prod": 0.5,
+    "efetivo": 18.0,
+    "acum": 36.0
+   },
+   {
+    "semana": "2026-12-21",
+    "efetivo": 0,
+    "acum": 36.0,
+    "obs": "recesso"
+   },
+   {
+    "semana": "2026-12-28",
+    "efetivo": 0,
+    "acum": 36.0,
+    "obs": "recesso"
+   },
+   {
+    "semana": "2027-01-04",
+    "equipe_h": 0,
+    "contr_pago": 40,
+    "prod": 0.75,
+    "efetivo": 27.0,
+    "acum": 63.0
+   },
+   {
+    "semana": "2027-01-11",
+    "equipe_h": 0,
+    "contr_pago": 40,
+    "prod": 0.75,
+    "efetivo": 27.0,
+    "acum": 90.0
+   },
+   {
+    "semana": "2027-01-18",
+    "equipe_h": 0,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 32.4,
+    "acum": 122.4
+   },
+   {
+    "semana": "2027-01-25",
+    "equipe_h": 0,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 32.4,
+    "acum": 154.8
+   },
+   {
+    "semana": "2027-02-01",
+    "equipe_h": 0,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 32.4,
+    "acum": 187.2
+   },
+   {
+    "semana": "2027-02-08",
+    "equipe_h": 0,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 32.4,
+    "acum": 219.6
+   },
+   {
+    "semana": "2027-02-15",
+    "equipe_h": 0,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 32.4,
+    "acum": 252.0
+   },
+   {
+    "semana": "2027-02-22",
+    "equipe_h": 0,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 32.4,
+    "acum": 284.4
+   },
+   {
+    "semana": "2027-03-01",
+    "equipe_h": 0,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 32.4,
+    "acum": 316.8
+   },
+   {
+    "semana": "2027-03-08",
+    "equipe_h": 25,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 54.9,
+    "acum": 371.7
+   },
+   {
+    "semana": "2027-03-15",
+    "equipe_h": 25,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 54.9,
+    "acum": 426.6
+   },
+   {
+    "semana": "2027-03-22",
+    "equipe_h": 25,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 54.9,
+    "acum": 481.5
+   },
+   {
+    "semana": "2027-03-29",
+    "equipe_h": 25,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 54.9,
+    "acum": 536.4
+   },
+   {
+    "semana": "2027-04-05",
+    "equipe_h": 25,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 54.9,
+    "acum": 591.3
+   },
+   {
+    "semana": "2027-04-12",
+    "equipe_h": 25,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 54.9,
+    "acum": 646.2
+   },
+   {
+    "semana": "2027-04-19",
+    "equipe_h": 25,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 54.9,
+    "acum": 701.1
+   },
+   {
+    "semana": "2027-04-26",
+    "equipe_h": 25,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 54.9,
+    "acum": 756.0
+   },
+   {
+    "semana": "2027-05-03",
+    "equipe_h": 25,
+    "contr_pago": 40,
+    "prod": 0.9,
+    "efetivo": 44.0,
+    "acum": 800.0
+   }
+  ],
+  "curva_base": [
+   {
+    "semana": "2026-12-07",
+    "acum": 0.0
+   },
+   {
+    "semana": "2026-12-14",
+    "acum": 0.0
+   },
+   {
+    "semana": "2026-12-21",
+    "acum": 0.0
+   },
+   {
+    "semana": "2026-12-28",
+    "acum": 0.0
+   },
+   {
+    "semana": "2027-01-04",
+    "acum": 0.0
+   },
+   {
+    "semana": "2027-01-11",
+    "acum": 0.0
+   },
+   {
+    "semana": "2027-01-18",
+    "acum": 0.0
+   },
+   {
+    "semana": "2027-01-25",
+    "acum": 0.0
+   },
+   {
+    "semana": "2027-02-01",
+    "acum": 0.0
+   },
+   {
+    "semana": "2027-02-08",
+    "acum": 0.0
+   },
+   {
+    "semana": "2027-02-15",
+    "acum": 0.0
+   },
+   {
+    "semana": "2027-02-22",
+    "acum": 0.0
+   },
+   {
+    "semana": "2027-03-01",
+    "acum": 0.0
+   },
+   {
+    "semana": "2027-03-08",
+    "acum": 25.0
+   },
+   {
+    "semana": "2027-03-15",
+    "acum": 50.0
+   },
+   {
+    "semana": "2027-03-22",
+    "acum": 75.0
+   },
+   {
+    "semana": "2027-03-29",
+    "acum": 100.0
+   },
+   {
+    "semana": "2027-04-05",
+    "acum": 125.0
+   },
+   {
+    "semana": "2027-04-12",
+    "acum": 150.0
+   },
+   {
+    "semana": "2027-04-19",
+    "acum": 175.0
+   },
+   {
+    "semana": "2027-04-26",
+    "acum": 200.0
+   },
+   {
+    "semana": "2027-05-03",
+    "acum": 225.0
+   },
+   {
+    "semana": "2027-05-10",
+    "acum": 250.0
+   },
+   {
+    "semana": "2027-05-17",
+    "acum": 275.0
+   },
+   {
+    "semana": "2027-05-24",
+    "acum": 300.0
+   },
+   {
+    "semana": "2027-05-31",
+    "acum": 325.0
+   },
+   {
+    "semana": "2027-06-07",
+    "acum": 350.0
+   },
+   {
+    "semana": "2027-06-14",
+    "acum": 375.0
+   },
+   {
+    "semana": "2027-06-21",
+    "acum": 400.0
+   },
+   {
+    "semana": "2027-06-28",
+    "acum": 400.0
+   },
+   {
+    "semana": "2027-07-05",
+    "acum": 400.0
+   },
+   {
+    "semana": "2027-07-12",
+    "acum": 400.0
+   },
+   {
+    "semana": "2027-07-19",
+    "acum": 400.0
+   },
+   {
+    "semana": "2027-07-26",
+    "acum": 400.0
+   },
+   {
+    "semana": "2027-08-02",
+    "acum": 400.0
+   },
+   {
+    "semana": "2027-08-09",
+    "acum": 400.0
+   },
+   {
+    "semana": "2027-08-16",
+    "acum": 425.0
+   },
+   {
+    "semana": "2027-08-23",
+    "acum": 450.0
+   },
+   {
+    "semana": "2027-08-30",
+    "acum": 475.0
+   },
+   {
+    "semana": "2027-09-06",
+    "acum": 500.0
+   },
+   {
+    "semana": "2027-09-13",
+    "acum": 525.0
+   },
+   {
+    "semana": "2027-09-20",
+    "acum": 550.0
+   },
+   {
+    "semana": "2027-09-27",
+    "acum": 575.0
+   },
+   {
+    "semana": "2027-10-04",
+    "acum": 600.0
+   },
+   {
+    "semana": "2027-10-11",
+    "acum": 625.0
+   },
+   {
+    "semana": "2027-10-18",
+    "acum": 650.0
+   },
+   {
+    "semana": "2027-10-25",
+    "acum": 675.0
+   },
+   {
+    "semana": "2027-11-01",
+    "acum": 700.0
+   },
+   {
+    "semana": "2027-11-08",
+    "acum": 725.0
+   },
+   {
+    "semana": "2027-11-15",
+    "acum": 750.0
+   },
+   {
+    "semana": "2027-11-22",
+    "acum": 775.0
+   },
+   {
+    "semana": "2027-11-29",
+    "acum": 800
+   },
+   {
+    "semana": "2027-12-06",
+    "acum": 800
+   }
+  ]
+ },
+ "aceleracao": {
+  "h_equipe": 220.0364298724955,
+  "h_contr": 792.0582877959928,
+  "h_onb": 39.602914389799636,
+  "custo_contr": 45543.35154826959,
+  "custo_acel_equipe": 17382.877959927144,
+  "custo_acel_onb": 3960.2914389799635,
+  "custo_base_pos_r1": 63200.0,
+  "custo_acel_pos_r1": 66886.5209471767,
+  "horas_base_pos_r1": 800,
+  "horas_acel_pos_r1": 1051.697632058288,
+  "delta_custo": 3686.520947176701,
+  "delta_horas": 251.69763205828804,
+  "custo_semana_ganha": 121.72474825583447,
+  "caixa_semana_ganha": 1981.1320754716983,
+  "h_equipe_liberada": 579.9635701275045,
+  "h_total_acel": 2651.697632058288,
+  "bac_acel": 193286.5209471767
+ },
+ "investimento": {
+  "caixa": {
+   "Contratados (horas x custo-hora)": 45543.35154826959,
+   "Recrutamento, contas e ferramentas": 3000.0,
+   "Infra extra: 2ª VPS e monitoramento (12 meses)": 1200.0
+  },
+  "caixa_sub": 49743.35154826959,
+  "reserva_caixa": 7461.502732240438,
+  "captacao_calc": 57204.85428051002,
+  "captacao": 60000.0,
+  "custo_reposicao": 126680.0,
+  "berkus": {
+   "Ideia sólida (valor básico)": 70000,
+   "Protótipo / tecnologia (R1 em produção)": 90000,
+   "Qualidade da equipe de gestão": 60000,
+   "Relações estratégicas (afiliados)": 20000,
+   "Lançamento / vendas": 0
+  },
+  "berkus_total": 240000,
+  "pre_money": 240000.0,
+  "pos_money": 300000.0,
+  "pct": 0.2,
+  "cap_antes": [
+   {
+    "socio": "Mirela",
+    "pct": 0.2
+   },
+   {
+    "socio": "Victor",
+    "pct": 0.2
+   },
+   {
+    "socio": "Ana",
+    "pct": 0.2
+   },
+   {
+    "socio": "Mariana",
+    "pct": 0.2
+   },
+   {
+    "socio": "Yago",
+    "pct": 0.2
+   }
+  ],
+  "cap_depois": [
+   {
+    "socio": "Mirela",
+    "pct": 0.16000000000000003
+   },
+   {
+    "socio": "Victor",
+    "pct": 0.16000000000000003
+   },
+   {
+    "socio": "Ana",
+    "pct": 0.16000000000000003
+   },
+   {
+    "socio": "Mariana",
+    "pct": 0.16000000000000003
+   },
+   {
+    "socio": "Yago",
+    "pct": 0.16000000000000003
+   },
+   {
+    "socio": "Investidor",
+    "pct": 0.2
+   }
+  ],
+  "tranches": [
+   {
+    "parcela": 1,
+    "valor": 30000.0,
+    "gatilho": "Aprovação da proposta e Release R1 (v1.0.0) aceita",
+    "data": "07/12/2026"
+   },
+   {
+    "parcela": 2,
+    "valor": 30000.0,
+    "gatilho": "Release R2 (v1.1.0) entregue no cenário acelerado",
+    "data": "21/03/2027"
+   }
+  ]
+ },
+ "retorno": {
+  "cenarios": {
+   "Pessimista": {
+    "visitas": 4000,
+    "clique": 0.1,
+    "conversao": 0.02,
+    "ticket": 3000,
+    "comissao": 0.03,
+    "compras": 8.0,
+    "receita_mes": 720.0,
+    "receita_antecipada": 2318.0026281208934,
+    "receita_2027_base": 4423.127463863338,
+    "receita_2027_acel": 6741.130091984231,
+    "payback_meses": 83.33333333333333,
+    "ganho_liquido": -1368.5183190558078
+   },
+   "Base": {
+    "visitas": 8000,
+    "clique": 0.15,
+    "conversao": 0.03,
+    "ticket": 3500,
+    "comissao": 0.04,
+    "compras": 36.0,
+    "receita_mes": 5040.0,
+    "receita_antecipada": 16226.018396846253,
+    "receita_2027_base": 30961.892247043364,
+    "receita_2027_acel": 47187.91064388961,
+    "payback_meses": 11.904761904761905,
+    "ganho_liquido": 12539.497449669552
+   },
+   "Otimista": {
+    "visitas": 15000,
+    "clique": 0.2,
+    "conversao": 0.04,
+    "ticket": 4000,
+    "comissao": 0.05,
+    "compras": 120.0,
+    "receita_mes": 24000.0,
+    "receita_antecipada": 77266.75427069645,
+    "receita_2027_base": 147437.58212877793,
+    "receita_2027_acel": 224704.33639947436,
+    "payback_meses": 2.5,
+    "ganho_liquido": 73580.23332351974
+   }
+  },
+  "meses_antecipados": 3.219448094612352,
+  "meses_receita_base": 6.14323258869908,
+  "meses_receita_acel": 9.362680683311432
+ }
+}

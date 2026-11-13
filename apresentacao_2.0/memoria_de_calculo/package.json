@@ -1,0 +1,7 @@
+{
+  "name": "harddex-memoria-de-calculo",
+  "private": true,
+  "description": "Geradores do Status Report e da pauta dos GPs (docx) a partir de numeros.json",
+  "scripts": { "build": "./build.sh" },
+  "dependencies": { "docx": "^9.15.3" }
+}
