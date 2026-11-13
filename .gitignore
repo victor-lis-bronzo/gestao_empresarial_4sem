@@ -1,0 +1,15 @@
+# Textos integrais do Guia PMBOK (© PMI): mantidos só localmente
+anotacoes_professor/arquivo_markdown/Guia PMBOK 8ª Edição Inglês.pdf.md
+anotacoes_professor/arquivo_markdown/Guia-PMBOK-6ª-Edição.pdf.md
+
+# dependências e artefatos de build
+node_modules/
+package-lock.json
+__pycache__/
+.venv/
+apresentacao_2.0/memoria_de_calculo/tarefas.json
+
+# arquivos temporários de editores e do LibreOffice
+.~lock.*#
+~$*
+.DS_Store
