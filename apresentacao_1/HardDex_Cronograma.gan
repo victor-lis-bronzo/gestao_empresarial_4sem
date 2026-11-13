@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="HardDex - Simplificando o hardware!" company="IFSP Campus Bragança Paulista - ADS - Gestão de Projetos de Software (BRAGEPR)" webLink="" view-date="2026-08-01" view-index="0" gantt-divider-location="760" resource-divider-location="320" version="3.3.3309" locale="en">
+    <description>Cronograma do projeto HardDex (6 semestres, 48 sprints, 3 releases). Data de corte do relatório RS-HDX-2026-10: 12/10/2026. Status VERDE; IDP = IDC = 1,00; 57,75% (1.386 de 2.400 h). Gerado por entrega/scripts/gerar_gan.py a partir de specs/00, 02 e 03.</description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="420" order="0" />
+        <field id="tpd4" name="Begin date" width="90" order="1" />
+        <field id="tpd5" name="End date" width="90" order="2" />
+        <field id="tpd7" name="Completion" width="70" order="3" />
+        <field id="tpc0" name="EAP" width="110" order="4" />
+        <field id="tpc1" name="Horas planejadas" width="110" order="5" />
+        <field id="tpc2" name="Horas agregadas (12/10/2026)" width="110" order="6" />
+        <field id="tpc3" name="% horas" width="110" order="7" />
+        <field id="tpc4" name="Custo (R$)" width="110" order="8" />
+        <option id="taskLabelRight" value="name" />
+        <option id="filter.completedTasks" value="false" />
+        <option id="filter.dueTodayTasks" value="false" />
+        <option id="filter.overdueTasks" value="false" />
+        <option id="filter.inProgressTodayTasks" value="false" />
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="200" order="0" />
+        <field id="1" name="Default role" width="200" order="1" />
+    </view>
+    <calendars>
+        <day-types>
+            <day-type id="0" />
+            <day-type id="1" />
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0" />
+            <only-show-weekends value="false" />
+            <overriden-day-types />
+            <days />
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon" />
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon" />
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon" />
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text" />
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date" />
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date" />
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int" />
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int" />
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text" />
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text" />
+            <taskproperty id="tpc0" name="EAP" type="custom" valuetype="text" defaultvalue="" />
+            <taskproperty id="tpc1" name="Horas planejadas" type="custom" valuetype="int" defaultvalue="" />
+            <taskproperty id="tpc2" name="Horas agregadas (12/10/2026)" type="custom" valuetype="int" defaultvalue="" />
+            <taskproperty id="tpc3" name="% horas" type="custom" valuetype="double" defaultvalue="" />
+            <taskproperty id="tpc4" name="Custo (R$)" type="custom" valuetype="double" defaultvalue="" />
+        </taskproperties>
+        <task id="0" uid="72570c17c7d15e71b45f3d21f00eca29" name="1 Projeto HardDex" color="#5B7BD5" meeting="false" start="2025-03-10" duration="1003" complete="58" expand="true" cost-manual-value="0" cost-calculated="false">
+            <notes>HardDex - Simplificando o hardware! (plataforma web de comparação de hardware).
+Objetivo (SMART): entregar até 07/12/2027 a plataforma web responsiva publicada em produção (VPS, domínio e HTTPS), cobrindo RF-001 a RF-010, em 3 releases semestrais (R1 06/12/2026, R2 27/06/2027, R3 07/12/2027), dentro de 2.400 h (BAC R$ 96.000,00).
+Status em 12/10/2026: VERDE. VP = VA = CR = 1386 h = R$ 55.440,00; IDP = IDC = 1,00; 57,75% por horas.
+Metodologia híbrida: cronograma preditivo por semestre + sprints Scrum quinzenais de 50 h (D07).
+Gerente do projeto: Mirela Andressa de Oliveira. Líder técnico: Victor Lis Bronzo.
+Calendário: 7 dias por semana (datas em dias corridos, como nas specs).
+Linha de base: BL-PLAN, com as mesmas datas do atual (sem desvio - D04).
+Observação: o GanttProject pode recalcular o % das tarefas-resumo ponderando por dias; o percentual oficial (por horas) está na coluna '% horas'.
+Fonte: specs/00-decisoes.md, 02-dados-simulacao.md e 03-gantt-e-graficos.md.</notes>
+            <customproperty taskproperty-id="tpc0" value="1" />
+            <customproperty taskproperty-id="tpc1" value="2400" />
+            <customproperty taskproperty-id="tpc2" value="1386" />
+            <customproperty taskproperty-id="tpc3" value="57.75" />
+            <customproperty taskproperty-id="tpc4" value="96000.0" />
+            <task id="1" uid="65eaef29942c50b29f1646cbc57379eb" name="Início do projeto (kickoff S1)" color="#2E7D32" meeting="true" start="2025-03-10" duration="0" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                <notes>Kickoff do S1 (2025/1).</notes>
+                <depend id="3" type="2" difference="0" hardness="Strong" />
+                <customproperty taskproperty-id="tpc0" value="1.0" />
+            </task>
+            <task id="2" uid="61328884cc3c592a904131db84c3f01d" name="1.1 S1 2025/1 - Ideação" color="#2E7D32" meeting="false" start="2025-03-10" duration="112" complete="100" expand="false" cost-manual-value="0" cost-calculated="false">
+                <notes>S1 2025/1 - Ideação
+400 h planejadas = R$ 16.000,00 (8 sprints de 50 h).
+Pacotes de trabalho (02 §4):
+- 1.1.1 Gerenciamento do S1 (40 h)
+- 1.1.2 Formação da equipe e definição do problema (80 h)
+- 1.1.3 Pesquisa de mercado e comparadores existentes (100 h)
+- 1.1.4 Proposta de valor (Canvas do projeto) (60 h)
+- 1.1.5 Fundamentos técnicos (HTML/CSS/JS e lógica) (120 h)</notes>
+                <customproperty taskproperty-id="tpc0" value="1.1" />
+                <customproperty taskproperty-id="tpc1" value="400" />
+                <customproperty taskproperty-id="tpc2" value="400" />
+                <customproperty taskproperty-id="tpc3" value="100.0" />
+                <customproperty taskproperty-id="tpc4" value="16000.0" />
+                <task id="3" uid="a2d1eb23e1cc5b6594e8e04f3e773542" name="Sprint 1 (Sp01)" color="#2E7D32" meeting="false" start="2025-03-10" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 1; 10/03/2025 a 23/03/2025; 50 h.</notes>
+                    <depend id="4" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.1.S1" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="4" uid="bcf796b4f5945dd8abc6fd13774e1107" name="Sprint 2 (Sp02)" color="#2E7D32" meeting="false" start="2025-03-24" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 2; 24/03/2025 a 06/04/2025; 50 h.</notes>
+                    <depend id="5" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.1.S2" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="5" uid="2e429463d513572abae0ffe3d1fd42d2" name="Sprint 3 (Sp03)" color="#2E7D32" meeting="false" start="2025-04-07" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 3; 07/04/2025 a 20/04/2025; 50 h.</notes>
+                    <depend id="6" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.1.S3" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="6" uid="ca9229cc121c5895b459bfa6df60510a" name="Sprint 4 (Sp04)" color="#2E7D32" meeting="false" start="2025-04-21" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 4; 21/04/2025 a 04/05/2025; 50 h.</notes>
+                    <depend id="7" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.1.S4" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="7" uid="8fbc3dfabf775d2698e0b9fb0c979287" name="Sprint 5 (Sp05)" color="#2E7D32" meeting="false" start="2025-05-05" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 5; 05/05/2025 a 18/05/2025; 50 h.</notes>
+                    <depend id="8" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.1.S5" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="8" uid="300ede3dd7d9523b9fcd496d31c2f295" name="Sprint 6 (Sp06)" color="#2E7D32" meeting="false" start="2025-05-19" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 6; 19/05/2025 a 01/06/2025; 50 h.</notes>
+                    <depend id="9" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.1.S6" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="9" uid="b88646dddb0458ca80277b450b15cd16" name="Sprint 7 (Sp07)" color="#2E7D32" meeting="false" start="2025-06-02" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 7; 02/06/2025 a 15/06/2025; 50 h.</notes>
+                    <depend id="10" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.1.S7" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="10" uid="385e99e268dc55c882d924893fbf30ae" name="Sprint 8 (Sp08)" color="#2E7D32" meeting="false" start="2025-06-16" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 8; 16/06/2025 a 29/06/2025; 50 h.</notes>
+                    <depend id="12" type="2" difference="0" hardness="Rubber" />
+                    <customproperty taskproperty-id="tpc0" value="1.1.S8" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+            </task>
+            <task id="11" uid="a0bccf316ff65307b704329734cd478e" name="1.2 S2 2025/2 - Requisitos iniciais" color="#2E7D32" meeting="false" start="2025-08-25" duration="112" complete="100" expand="false" cost-manual-value="0" cost-calculated="false">
+                <notes>S2 2025/2 - Requisitos iniciais
+400 h planejadas = R$ 16.000,00 (8 sprints de 50 h).
+Pacotes de trabalho (02 §4):
+- 1.2.1 Gerenciamento do S2 (40 h)
+- 1.2.2 Levantamento de requisitos com usuários leigos (100 h)
+- 1.2.3 Modelo conceitual de dados (80 h)
+- 1.2.4 Protótipos de baixa fidelidade e avaliação de usabilidade (100 h)
+- 1.2.5 Estudo de front-end e orientação a objetos (80 h)</notes>
+                <customproperty taskproperty-id="tpc0" value="1.2" />
+                <customproperty taskproperty-id="tpc1" value="400" />
+                <customproperty taskproperty-id="tpc2" value="400" />
+                <customproperty taskproperty-id="tpc3" value="100.0" />
+                <customproperty taskproperty-id="tpc4" value="16000.0" />
+                <task id="12" uid="801fd7c5aa2e57899f66dc2899f76846" name="Sprint 1 (Sp09)" color="#2E7D32" meeting="false" start="2025-08-25" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 9; 25/08/2025 a 07/09/2025; 50 h.</notes>
+                    <depend id="13" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.2.S1" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="13" uid="6b117e608b385164a102fb2ab3898b65" name="Sprint 2 (Sp10)" color="#2E7D32" meeting="false" start="2025-09-08" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 10; 08/09/2025 a 21/09/2025; 50 h.</notes>
+                    <depend id="14" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.2.S2" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="14" uid="1358b5689a0c51c6bfa1e64e55f4b002" name="Sprint 3 (Sp11)" color="#2E7D32" meeting="false" start="2025-09-22" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 11; 22/09/2025 a 05/10/2025; 50 h.</notes>
+                    <depend id="15" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.2.S3" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="15" uid="e75ff4eba76954ab9fd57f479f15cc15" name="Sprint 4 (Sp12)" color="#2E7D32" meeting="false" start="2025-10-06" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 12; 06/10/2025 a 19/10/2025; 50 h.</notes>
+                    <depend id="16" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.2.S4" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="16" uid="27ba1df2a58359bc85eb9f1e87e5861a" name="Sprint 5 (Sp13)" color="#2E7D32" meeting="false" start="2025-10-20" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 13; 20/10/2025 a 02/11/2025; 50 h.</notes>
+                    <depend id="17" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.2.S5" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="17" uid="7d2da4753d515fcd832770fc0f72d2bf" name="Sprint 6 (Sp14)" color="#2E7D32" meeting="false" start="2025-11-03" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 14; 03/11/2025 a 16/11/2025; 50 h.</notes>
+                    <depend id="18" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.2.S6" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="18" uid="b1c688182e5e5dd6849a8cef2aa0f8dc" name="Sprint 7 (Sp15)" color="#2E7D32" meeting="false" start="2025-11-17" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 15; 17/11/2025 a 30/11/2025; 50 h.</notes>
+                    <depend id="19" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.2.S7" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="19" uid="80de0972230859ee8be3733251246e8d" name="Sprint 8 (Sp16)" color="#2E7D32" meeting="false" start="2025-12-01" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 16; 01/12/2025 a 14/12/2025; 50 h.</notes>
+                    <depend id="21" type="2" difference="0" hardness="Rubber" />
+                    <customproperty taskproperty-id="tpc0" value="1.2.S8" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+            </task>
+            <task id="20" uid="1abba01d6cff57acbedac8701f4db2f4" name="1.3 S3 2026/1 - Análise e modelagem" color="#2E7D32" meeting="false" start="2026-03-09" duration="112" complete="100" expand="false" cost-manual-value="0" cost-calculated="false">
+                <notes>S3 2026/1 - Análise e modelagem
+400 h planejadas = R$ 16.000,00 (8 sprints de 50 h).
+Pacotes de trabalho (02 §4):
+- 1.3.1 Gerenciamento do S3 (40 h)
+- 1.3.2 Requisitos consolidados (RF, RGN, RNF) (80 h)
+- 1.3.3 Casos de uso e especificações funcionais (100 h)
+- 1.3.4 Diagramas de atividades e de classes de domínio (80 h)
+- 1.3.5 Arquitetura física e lógica, definição da stack (60 h)
+- 1.3.6 Protótipos de interface de alta fidelidade (40 h)</notes>
+                <customproperty taskproperty-id="tpc0" value="1.3" />
+                <customproperty taskproperty-id="tpc1" value="400" />
+                <customproperty taskproperty-id="tpc2" value="400" />
+                <customproperty taskproperty-id="tpc3" value="100.0" />
+                <customproperty taskproperty-id="tpc4" value="16000.0" />
+                <task id="21" uid="3554f29eb64e5d7e93c8fffe31317aa1" name="Sprint 1 (Sp17)" color="#2E7D32" meeting="false" start="2026-03-09" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 17; 09/03/2026 a 22/03/2026; 50 h.</notes>
+                    <depend id="22" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.3.S1" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="22" uid="c31d24ab8d5351aea008600553048074" name="Sprint 2 (Sp18)" color="#2E7D32" meeting="false" start="2026-03-23" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 18; 23/03/2026 a 05/04/2026; 50 h.</notes>
+                    <depend id="23" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.3.S2" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="23" uid="3b66348dc48950d4802c7e06866e67b7" name="Sprint 3 (Sp19)" color="#2E7D32" meeting="false" start="2026-04-06" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 19; 06/04/2026 a 19/04/2026; 50 h.</notes>
+                    <depend id="24" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.3.S3" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="24" uid="d9d712eb75f5557194097a1976cbe480" name="Sprint 4 (Sp20)" color="#2E7D32" meeting="false" start="2026-04-20" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 20; 20/04/2026 a 03/05/2026; 50 h.</notes>
+                    <depend id="25" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.3.S4" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="25" uid="17fc20825e67533782a00ccf0c2e2cb8" name="Sprint 5 (Sp21)" color="#2E7D32" meeting="false" start="2026-05-04" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 21; 04/05/2026 a 17/05/2026; 50 h.</notes>
+                    <depend id="26" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.3.S5" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="26" uid="5006e695206b54b49605b2d4cde3a75a" name="Sprint 6 (Sp22)" color="#2E7D32" meeting="false" start="2026-05-18" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 22; 18/05/2026 a 31/05/2026; 50 h.</notes>
+                    <depend id="27" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.3.S6" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="27" uid="646e5e3a426a5317ba9a37f58e3b0484" name="Sprint 7 (Sp23)" color="#2E7D32" meeting="false" start="2026-06-01" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 23; 01/06/2026 a 14/06/2026; 50 h.</notes>
+                    <depend id="28" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.3.S7" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="28" uid="0370f4db8f6057068d64f088c160a5a9" name="Sprint 8 (Sp24)" color="#2E7D32" meeting="false" start="2026-06-15" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 24; 15/06/2026 a 28/06/2026; 50 h.</notes>
+                    <depend id="32" type="2" difference="0" hardness="Rubber" />
+                    <customproperty taskproperty-id="tpc0" value="1.3.S8" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="29" uid="3e174ae50c3456f0bda4e79a47c4993f" name="BL-REQ 1.0 - documento de análise e modelagem" color="#2E7D32" meeting="true" start="2026-06-28" duration="0" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Linha de base de requisitos: RF, RGN, RNF, UC e diagramas (PDF BRAAOOB). Congelada.</notes>
+                </task>
+            </task>
+            <task id="30" uid="6c36a2ed0405586fa1bd2cd8951e53e8" name="1.4 S4 2026/2 - Arquitetura, back-end base, catálogo (R1)" color="#5B7BD5" meeting="false" start="2026-08-17" duration="112" complete="47" expand="true" cost-manual-value="0" cost-calculated="false">
+                <notes>S4 2026/2 - Arquitetura, back-end base, catálogo (R1)
+400 h planejadas = R$ 16.000,00 (8 sprints de 50 h).
+Pacotes do S4: ver o grupo '2 Pacotes de trabalho do S4 (visão por disciplina)'.
+
+Entregáveis: R1 (v1.0.0, 06/12/2026): web publicada com cadastro/login (e-mail e Google), catálogo administrável (fabricantes, modelos, especificações, mídias), gerenciamento do dicionário, ADRs, ambiente Docker/NGINX/HTTPS na VPS. Requisitos: RF-001, RF-009, RF-010; RGN-02, RGN-04, RGN-05; RNF-04.</notes>
+                <customproperty taskproperty-id="tpc0" value="1.4" />
+                <customproperty taskproperty-id="tpc1" value="400" />
+                <customproperty taskproperty-id="tpc2" value="186" />
+                <customproperty taskproperty-id="tpc3" value="46.5" />
+                <customproperty taskproperty-id="tpc4" value="16000.0" />
+                <task id="31" uid="7376ce540cfd550faf206a4dd601e290" name="Kickoff do S4 / BL-PLAN-S4" color="#2E7D32" meeting="true" start="2026-08-17" duration="0" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Linha de base do S4: EAP, cronograma por sprint e orçamento. Congelada.</notes>
+                    <depend id="32" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.4.0" />
+                </task>
+                <task id="32" uid="cb94bd4720d956c2854249fe4199a362" name="Sprint 1 (Sp25, 3 sem.) - ambiente local, ADR-001/002, protocolo de pesquisa" color="#2E7D32" meeting="false" start="2026-08-17" duration="21" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint 1 do S4: ambiente local, ADR-001/002, protocolo de pesquisa.
+Sprint global nº 25; 17/08/2026 a 06/09/2026; 50 h.</notes>
+                    <depend id="33" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.4.S1" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="33" uid="97485a3e29a455359dddc77eb74bb30d" name="Sprint 2 (Sp26) - schema Prisma, API base, VPS/DNS, ADR-003/004" color="#2E7D32" meeting="false" start="2026-09-07" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint 2 do S4: schema Prisma, API base, VPS/DNS, ADR-003/004.
+Sprint global nº 26; 07/09/2026 a 20/09/2026; 50 h.</notes>
+                    <depend id="34" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.4.S2" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="34" uid="81e01dc4000f5fc3ada3cc1fb2ebee41" name="Sprint 3 (Sp27) - HTTPS no staging, login por e-mail, BL-ARQ (v0.3.0)" color="#2E7D32" meeting="false" start="2026-09-21" duration="14" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint 3 do S4: HTTPS no staging, login por e-mail, BL-ARQ (v0.3.0).
+Sprint global nº 27; 21/09/2026 a 04/10/2026; 50 h.</notes>
+                    <depend id="36" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.4.S3" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="50" />
+                    <customproperty taskproperty-id="tpc3" value="100.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="35" uid="5bb5d8ecd27158a9b03b1132106af402" name="BL-ARQ 1.0 (v0.3.0)" color="#2E7D32" meeting="true" start="2026-10-02" duration="0" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>ADR-001 a ADR-004 aprovados na revisão da sprint 3; tag v0.3.0 no staging. Congelada.</notes>
+                </task>
+                <task id="36" uid="59e1338aa9e4577c9d5fe43578de2e3d" name="Sprint 4 (Sp28) - CRUD fabricantes/modelos, login Google (v0.4.0)" color="#5B7BD5" meeting="false" start="2026-10-05" duration="14" complete="72" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Backlog da sprint 4 (05/10 a 18/10/2026) - 02 §5.5. Capacidade: 10 h por pessoa.
+
+- [Concluído] Planejamento da sprint 4 | 1.4.1 | Mirela | 2 h | 05/10
+- [Concluído] Migração do schema: especificações técnicas obrigatórias por categoria (RGN-02) | 1.4.5 | Mariana | 5 h | 07/10
+- [Concluído] Configuração do OAuth Google (credenciais e segredos no staging) | 1.4.4 | Victor | 3 h | 08/10
+- [Concluído] API de CRUD de fabricantes e modelos (RF-009, parte 1) | 1.4.5 | Ana | 8 h | 09/10
+- [Concluído] Telas do painel admin de fabricantes e modelos | 1.4.6 | Yago | 8 h | 09/10
+- [Concluído] Levantamento do catálogo - lote 2 | 1.4.8 | Mariana | 2 h | 09/10
+- [Concluído] Deploy da v0.4.0-alpha.1 no staging | 1.4.3 | Victor | 2 h | 09/10
+- [Concluído] Relatório de status de out/2026 e registro de riscos | 1.4.1 | Mirela | 6 h | 12/10
+- [A fazer] Login com Google (RF-001, parte 2) | 1.4.4 | Victor | 5 h | 16/10
+- [A fazer] Controle de acesso Administrador/Editor (RGN-05) | 1.4.4 | Ana | 2 h | 16/10
+- [A fazer] Testes de integração do CRUD de fabricantes e modelos | 1.4.5 | Mariana | 3 h | 16/10
+- [A fazer] Revisão dos textos do dicionário - lote 1 | 1.4.9 | Yago | 2 h | 16/10
+- [A fazer] Revisão e retrospectiva da sprint 4; tag v0.4.0 | 1.4.1 | Mirela | 2 h | 16/10
+
+Agregado até 12/10/2026: 36 de 50 h = 72%.
+Sprint global nº 28; 05/10/2026 a 18/10/2026; 50 h.</notes>
+                    <depend id="38" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.4.S4" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="36" />
+                    <customproperty taskproperty-id="tpc3" value="72.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="37" uid="b3cd52049c555332bf141f967798a164" name="Status report RS-HDX-2026-10 (data de corte)" color="#D32F2F" meeting="true" start="2026-10-12" duration="0" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Data de corte do relatório de status de out/2026 (período 01/10 a 12/10/2026). Status VERDE; IDP = IDC = 1,00; projeto 57,75%, S4 46,5%, sprint 4 72% (36 de 50 h).</notes>
+                </task>
+                <task id="38" uid="72be78dc57b05add9b9e1353992605e8" name="Sprint 5 (Sp29) - ADR-005 (busca), CI, especificações e mídias" color="#5B7BD5" meeting="false" start="2026-10-19" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint 5 do S4: ADR-005 (busca), CI, especificações e mídias.
+Sprint global nº 29; 19/10/2026 a 01/11/2026; 50 h.</notes>
+                    <depend id="39" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.4.S5" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="39" uid="fc8b124284e95887826d8c2dbe8a29d8" name="Sprint 6 (Sp30) - RF-010, catálogo público, backup e monitoramento" color="#5B7BD5" meeting="false" start="2026-11-02" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint 6 do S4: RF-010, catálogo público, backup e monitoramento.
+Sprint global nº 30; 02/11/2026 a 15/11/2026; 50 h.</notes>
+                    <depend id="40" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.4.S6" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="40" uid="7d76494611ec50d18d96167b86d4a083" name="Sprint 7 (Sp31) - beta do R1 (v1.0.0-beta.1)" color="#5B7BD5" meeting="false" start="2026-11-16" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint 7 do S4: beta do R1 (v1.0.0-beta.1).
+Sprint global nº 31; 16/11/2026 a 29/11/2026; 50 h.</notes>
+                    <depend id="42" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.4.S7" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="41" uid="290c50cdd73e5c7ab6fb2a0543be3420" name="Beta do R1 (v1.0.0-beta.1)" color="#5B7BD5" meeting="true" start="2026-11-27" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Versão beta publicada em produção com acesso restrito (PG-20).</notes>
+                </task>
+                <task id="42" uid="d755ec0ecf9c50b6901158e4b0b229d6" name="Sprint 8 (Sp32, 1 sem.) - homologação e Release R1 (v1.0.0)" color="#5B7BD5" meeting="false" start="2026-11-30" duration="7" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint 8 do S4: homologação e Release R1 (v1.0.0).
+Sprint global nº 32; 30/11/2026 a 06/12/2026; 50 h.</notes>
+                    <depend id="48" type="2" difference="0" hardness="Rubber" />
+                    <customproperty taskproperty-id="tpc0" value="1.4.S8" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="43" uid="93902375ed9353dd9383a4a1d2653cf1" name="Release candidate do R1 (v1.0.0-rc.1)" color="#5B7BD5" meeting="true" start="2026-11-30" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Início da homologação do R1 (PG-25); branch release/v1.0.0.</notes>
+                </task>
+                <task id="44" uid="e526bb3dc2fe5256ac514ca3cd114ce6" name="Release R1 (v1.0.0) / BL-R1" color="#5B7BD5" meeting="true" start="2026-12-06" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Aceite do R1 pela gerente do projeto e pela equipe (A13), critérios de 02 §17.</notes>
+                    <depend id="47" type="2" difference="0" hardness="Rubber" />
+                </task>
+            </task>
+            <task id="45" uid="4f680e1b1d635f319d03b6cc70d2d902" name="Entrega do Status Report na disciplina (PG-26)" color="#5B7BD5" meeting="true" start="2026-12-07" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                <notes>Entrega da atividade avaliativa em Gestão de Projetos de Software (D18).</notes>
+            </task>
+            <task id="46" uid="c6cff39dc1f8564b86b40f27e307da1b" name="1.5 S5 2027/1 - Release R2" color="#5B7BD5" meeting="false" start="2027-03-08" duration="112" complete="0" expand="false" cost-manual-value="0" cost-calculated="false">
+                <notes>S5 2027/1 - Release R2
+400 h planejadas = R$ 16.000,00 (8 sprints de 50 h).
+Pacotes de trabalho (02 §4):
+- 1.5.1 Gerenciamento do S5 (40 h)
+- 1.5.2 Questionário TDU e perfilamento (RF-004, RGN-01) (60 h)
+- 1.5.3 Busca em linguagem simples (RF-005) (80 h)
+- 1.5.4 Tags baseadas no perfil (RF-006) (40 h)
+- 1.5.5 Comparador de até 4 dispositivos (RF-007) (60 h)
+- 1.5.6 Dicionário didático na interface com WCAG nos modais (RF-008) (40 h)
+- 1.5.7 Biblioteca de componentes e redirecionamento com afiliado (RGN-03) (30 h)
+- 1.5.8 Integração, testes e release R2 (50 h)
+
+Entregáveis: R2 (v1.1.0, 27/06/2027): questionário TDU, busca em linguagem simples, tags, comparador de até 4 itens, dicionário didático, redirecionamento com afiliado. Requisitos: RF-004 a RF-008; RGN-01, RGN-03; RNF-05.</notes>
+                <customproperty taskproperty-id="tpc0" value="1.5" />
+                <customproperty taskproperty-id="tpc1" value="400" />
+                <customproperty taskproperty-id="tpc2" value="0" />
+                <customproperty taskproperty-id="tpc3" value="0.0" />
+                <customproperty taskproperty-id="tpc4" value="16000.0" />
+                <task id="47" uid="8b6804e7c4dc5ae18ab6eca2aac5a783" name="Kickoff do S5 / BL-PLAN-S5" color="#5B7BD5" meeting="true" start="2027-03-08" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Linha de base do plano do S5.</notes>
+                    <depend id="48" type="2" difference="0" hardness="Strong" />
+                </task>
+                <task id="48" uid="78ec34c5f1c151119a72198bd784afad" name="Sprint 1 (Sp33)" color="#5B7BD5" meeting="false" start="2027-03-08" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 33; 08/03/2027 a 21/03/2027; 50 h.</notes>
+                    <depend id="49" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.5.S1" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="49" uid="80508672159c5f26874c1b36a73ac313" name="Sprint 2 (Sp34)" color="#5B7BD5" meeting="false" start="2027-03-22" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 34; 22/03/2027 a 04/04/2027; 50 h.</notes>
+                    <depend id="50" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.5.S2" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="50" uid="6d17e4ade8f2591cab602db3f4b6d93f" name="Sprint 3 (Sp35)" color="#5B7BD5" meeting="false" start="2027-04-05" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 35; 05/04/2027 a 18/04/2027; 50 h.</notes>
+                    <depend id="51" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.5.S3" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="51" uid="6ff2dd5bc6125566b19ea2168978c4cb" name="Sprint 4 (Sp36)" color="#5B7BD5" meeting="false" start="2027-04-19" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 36; 19/04/2027 a 02/05/2027; 50 h.</notes>
+                    <depend id="52" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.5.S4" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="52" uid="7646fff4b7675c6191cfbe294112602d" name="Sprint 5 (Sp37)" color="#5B7BD5" meeting="false" start="2027-05-03" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 37; 03/05/2027 a 16/05/2027; 50 h.</notes>
+                    <depend id="53" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.5.S5" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="53" uid="fc9ca058d06551dea9fdb73f060457ef" name="Sprint 6 (Sp38)" color="#5B7BD5" meeting="false" start="2027-05-17" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 38; 17/05/2027 a 30/05/2027; 50 h.</notes>
+                    <depend id="54" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.5.S6" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="54" uid="67029de9d9f75e6b95fde4586f6ae2ce" name="Sprint 7 (Sp39)" color="#5B7BD5" meeting="false" start="2027-05-31" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 39; 31/05/2027 a 13/06/2027; 50 h.</notes>
+                    <depend id="55" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.5.S7" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="55" uid="ac25d9d2e5d9547e8dbd5f20884b3829" name="Sprint 8 (Sp40)" color="#5B7BD5" meeting="false" start="2027-06-14" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 40; 14/06/2027 a 27/06/2027; 50 h.</notes>
+                    <depend id="59" type="2" difference="0" hardness="Rubber" />
+                    <customproperty taskproperty-id="tpc0" value="1.5.S8" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="56" uid="33f9d44fc4dd563d9b93c615d6f85588" name="Release R2 (v1.1.0) / BL-R2" color="#5B7BD5" meeting="true" start="2027-06-27" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Aceite do R2 pela gerente do projeto e pela equipe (A13).</notes>
+                    <depend id="58" type="2" difference="0" hardness="Rubber" />
+                </task>
+            </task>
+            <task id="57" uid="288c3212d1415e7c899cb7c0fc0034dc" name="1.6 S6 2027/2 - Release R3 e encerramento" color="#5B7BD5" meeting="false" start="2027-08-18" duration="112" complete="0" expand="false" cost-manual-value="0" cost-calculated="false">
+                <notes>S6 2027/2 - Release R3 e encerramento
+400 h planejadas = R$ 16.000,00 (8 sprints de 50 h).
+Pacotes de trabalho (02 §4):
+- 1.6.1 Gerenciamento e encerramento (lições aprendidas) (40 h)
+- 1.6.2 Perfil do usuário (RF-002) (50 h)
+- 1.6.3 Persistência de favoritos e histórico no back-end (RF-003, RNF-02) (50 h)
+- 1.6.4 Qualidade de software (testes automatizados, revisão) (60 h)
+- 1.6.5 Segurança da informação e LGPD (RNF-01) (50 h)
+- 1.6.6 Acessibilidade WCAG (RNF-05) (30 h)
+- 1.6.7 Polimento da documentação de análise (30 h)
+- 1.6.8 Deploy final, monitoramento e disponibilidade (RNF-03) (40 h)
+- 1.6.9 Homologação, aceite final e release R3 (50 h)
+
+Entregáveis: R3 (v1.2.0, 07/12/2027): perfil, favoritos e histórico persistidos, testes automatizados, checklist de segurança e LGPD, auditoria WCAG, documentação revisada, deploy final, termo de encerramento. Requisitos: RF-002, RF-003; RNF-01, RNF-02, RNF-03, RNF-05.</notes>
+                <customproperty taskproperty-id="tpc0" value="1.6" />
+                <customproperty taskproperty-id="tpc1" value="400" />
+                <customproperty taskproperty-id="tpc2" value="0" />
+                <customproperty taskproperty-id="tpc3" value="0.0" />
+                <customproperty taskproperty-id="tpc4" value="16000.0" />
+                <task id="58" uid="a8052f95544856d6ab5084ade75775a1" name="Kickoff do S6 / BL-PLAN-S6" color="#5B7BD5" meeting="true" start="2027-08-18" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Linha de base do plano do S6.</notes>
+                    <depend id="59" type="2" difference="0" hardness="Strong" />
+                </task>
+                <task id="59" uid="ac8dfe295b8e5d7db143103941ba2d4e" name="Sprint 1 (Sp41)" color="#5B7BD5" meeting="false" start="2027-08-18" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 41; 18/08/2027 a 31/08/2027; 50 h.</notes>
+                    <depend id="60" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.6.S1" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="60" uid="cf1a366815965c708510a45907ad7bb9" name="Sprint 2 (Sp42)" color="#5B7BD5" meeting="false" start="2027-09-01" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 42; 01/09/2027 a 14/09/2027; 50 h.</notes>
+                    <depend id="61" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.6.S2" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="61" uid="252e78e3b89b547794f548d75d1ad41a" name="Sprint 3 (Sp43)" color="#5B7BD5" meeting="false" start="2027-09-15" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 43; 15/09/2027 a 28/09/2027; 50 h.</notes>
+                    <depend id="62" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.6.S3" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="62" uid="6370ba6756ef5e5daf5c84fd83bdbdc1" name="Sprint 4 (Sp44)" color="#5B7BD5" meeting="false" start="2027-09-29" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 44; 29/09/2027 a 12/10/2027; 50 h.</notes>
+                    <depend id="63" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.6.S4" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="63" uid="7a0555ac9e815d22aa9a9172b7657d24" name="Sprint 5 (Sp45)" color="#5B7BD5" meeting="false" start="2027-10-13" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 45; 13/10/2027 a 26/10/2027; 50 h.</notes>
+                    <depend id="64" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.6.S5" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="64" uid="f2db852d2b05508396a976cb389aecbe" name="Sprint 6 (Sp46)" color="#5B7BD5" meeting="false" start="2027-10-27" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 46; 27/10/2027 a 09/11/2027; 50 h.</notes>
+                    <depend id="65" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.6.S6" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="65" uid="d8fba8d472375e4daef7a3b32708eed9" name="Sprint 7 (Sp47)" color="#5B7BD5" meeting="false" start="2027-11-10" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 47; 10/11/2027 a 23/11/2027; 50 h.</notes>
+                    <depend id="66" type="2" difference="0" hardness="Strong" />
+                    <customproperty taskproperty-id="tpc0" value="1.6.S7" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="66" uid="f771ad4a8732531bbcec40a6fd47b427" name="Sprint 8 (Sp48)" color="#5B7BD5" meeting="false" start="2027-11-24" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Sprint global nº 48; 24/11/2027 a 07/12/2027; 50 h.</notes>
+                    <customproperty taskproperty-id="tpc0" value="1.6.S8" />
+                    <customproperty taskproperty-id="tpc1" value="50" />
+                    <customproperty taskproperty-id="tpc2" value="0" />
+                    <customproperty taskproperty-id="tpc3" value="0.0" />
+                    <customproperty taskproperty-id="tpc4" value="2000.0" />
+                </task>
+                <task id="67" uid="570f7d997ce95041ace6d40d91a9f0c1" name="Release R3 (v1.2.0), aceite final e encerramento / BL-R3" color="#5B7BD5" meeting="true" start="2027-12-07" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                    <notes>Aceite final, lições aprendidas e termo de encerramento (fim do projeto - D18).</notes>
+                </task>
+            </task>
+        </task>
+        <task id="68" uid="82913fe88b155c8f836f991468532d68" name="2 Pacotes de trabalho do S4 (visão por disciplina)" color="#5B7BD5" meeting="false" start="2026-08-17" duration="112" complete="47" expand="true" cost-manual-value="0" cost-calculated="false">
+            <notes>Mesmas 400 h do S4, vistas por pacote/disciplina (D09; 02 §5.4; 03 §2.3). Não somar com a árvore 1: é outra visão do mesmo trabalho.</notes>
+            <customproperty taskproperty-id="tpc0" value="1.4 (visão por pacote)" />
+            <customproperty taskproperty-id="tpc1" value="400" />
+            <customproperty taskproperty-id="tpc2" value="186" />
+            <customproperty taskproperty-id="tpc3" value="46.5" />
+            <customproperty taskproperty-id="tpc4" value="16000.0" />
+            <task id="69" uid="5114e1f40cca5b00a6b196aa9850cebf" name="1.4.1 Gerenciamento do projeto (status report, EAP, cronograma, riscos) (Gestão de Projetos de Software)" color="#5B7BD5" meeting="false" start="2026-08-17" duration="112" complete="45" expand="true" cost-manual-value="0" cost-calculated="false">
+                <notes>Responsável: Mirela Andressa de Oliveira. Disciplina vinculada: Gestão de Projetos de Software. Horas por sprint (Sp1..Sp8): 6, 2, 2, 10, 5, 5, 5, 5.</notes>
+                <customproperty taskproperty-id="tpc0" value="1.4.1" />
+                <customproperty taskproperty-id="tpc1" value="40" />
+                <customproperty taskproperty-id="tpc2" value="18" />
+                <customproperty taskproperty-id="tpc3" value="45.0" />
+                <customproperty taskproperty-id="tpc4" value="1600.0" />
+            </task>
+            <task id="70" uid="c04c365dbece5f1ca8b4038121fac2fe" name="1.4.2 Arquitetura e ADRs (Arquitetura de Software)" color="#5B7BD5" meeting="false" start="2026-08-17" duration="105" complete="80" expand="true" cost-manual-value="0" cost-calculated="false">
+                <notes>Responsável: Victor Lis Bronzo. Disciplina vinculada: Arquitetura de Software. Horas por sprint (Sp1..Sp8): 20, 12, 8, 0, 5, 0, 5, 0.</notes>
+                <customproperty taskproperty-id="tpc0" value="1.4.2" />
+                <customproperty taskproperty-id="tpc1" value="50" />
+                <customproperty taskproperty-id="tpc2" value="40" />
+                <customproperty taskproperty-id="tpc3" value="80.0" />
+                <customproperty taskproperty-id="tpc4" value="2000.0" />
+            </task>
+            <task id="71" uid="075e59d63ee650f1bfbb8ffcff0fa5ab" name="1.4.3 Infraestrutura e rede (Docker Compose, NGINX, HTTPS, DNS, deploy na VPS, CI) (Redes de Computadores)" color="#5B7BD5" meeting="false" start="2026-08-17" duration="112" complete="50" expand="true" cost-manual-value="0" cost-calculated="false">
+                <notes>Responsável: Victor Lis Bronzo. Disciplina vinculada: Redes de Computadores. Horas por sprint (Sp1..Sp8): 10, 10, 8, 2, 8, 7, 8, 7.</notes>
+                <customproperty taskproperty-id="tpc0" value="1.4.3" />
+                <customproperty taskproperty-id="tpc1" value="60" />
+                <customproperty taskproperty-id="tpc2" value="30" />
+                <customproperty taskproperty-id="tpc3" value="50.0" />
+                <customproperty taskproperty-id="tpc4" value="2400.0" />
+            </task>
+            <task id="72" uid="69ee743125895b2aaad25f8b5e04ad57" name="1.4.4 Back-end base e autenticação (RF-001, RF-010 API, RGN-04, RGN-05)" color="#5B7BD5" meeting="false" start="2026-08-17" duration="105" complete="50" expand="true" cost-manual-value="0" cost-calculated="false">
+                <notes>Responsável: Ana Tayná Reis Maciel. Horas por sprint (Sp1..Sp8): 4, 10, 13, 10, 8, 8, 7, 0.</notes>
+                <customproperty taskproperty-id="tpc0" value="1.4.4" />
+                <customproperty taskproperty-id="tpc1" value="60" />
+                <customproperty taskproperty-id="tpc2" value="30" />
+                <customproperty taskproperty-id="tpc3" value="50.0" />
+                <customproperty taskproperty-id="tpc4" value="2400.0" />
+            </task>
+            <task id="73" uid="0cf26340ca0756a7bd22e7b0adddd1f4" name="1.4.5 Banco de dados e catálogo (schema Prisma, RF-009, RGN-02, testes)" color="#5B7BD5" meeting="false" start="2026-08-17" duration="112" complete="50" expand="true" cost-manual-value="0" cost-calculated="false">
+                <notes>Responsável: Mariana Mourão Sampaio. Horas por sprint (Sp1..Sp8): 6, 11, 0, 16, 10, 8, 4, 5.</notes>
+                <customproperty taskproperty-id="tpc0" value="1.4.5" />
+                <customproperty taskproperty-id="tpc1" value="60" />
+                <customproperty taskproperty-id="tpc2" value="30" />
+                <customproperty taskproperty-id="tpc3" value="50.0" />
+                <customproperty taskproperty-id="tpc4" value="2400.0" />
+            </task>
+            <task id="74" uid="612d84034e37526d93e2cb9782622479" name="1.4.6 Front-end web responsivo (login, admin, catálogo público)" color="#5B7BD5" meeting="false" start="2026-09-21" duration="77" complete="30" expand="true" cost-manual-value="0" cost-calculated="false">
+                <notes>Responsável: Yago Barbosa Dini. Horas por sprint (Sp1..Sp8): 0, 0, 7, 8, 6, 8, 13, 8.</notes>
+                <customproperty taskproperty-id="tpc0" value="1.4.6" />
+                <customproperty taskproperty-id="tpc1" value="50" />
+                <customproperty taskproperty-id="tpc2" value="15" />
+                <customproperty taskproperty-id="tpc3" value="30.0" />
+                <customproperty taskproperty-id="tpc4" value="2000.0" />
+            </task>
+            <task id="75" uid="d5d6b962dfd75c00ae314645f620a11c" name="1.4.7 Indexação e ranqueamento da busca (estudo, spike, estrutura de índice) (Estrutura de Dados)" color="#5B7BD5" meeting="false" start="2026-09-07" duration="84" complete="32" expand="true" cost-manual-value="0" cost-calculated="false">
+                <notes>Responsável: Ana Tayná Reis Maciel. Disciplina vinculada: Estrutura de Dados. Horas por sprint (Sp1..Sp8): 0, 3, 5, 0, 6, 8, 3, 0.</notes>
+                <customproperty taskproperty-id="tpc0" value="1.4.7" />
+                <customproperty taskproperty-id="tpc1" value="25" />
+                <customproperty taskproperty-id="tpc2" value="8" />
+                <customproperty taskproperty-id="tpc3" value="32.0" />
+                <customproperty taskproperty-id="tpc4" value="1000.0" />
+            </task>
+            <task id="76" uid="56aaf2a68e425b6a9704cc6af54c62ff" name="1.4.8 Levantamento e referências do catálogo de hardware (Metodologia de Pesquisa)" color="#5B7BD5" meeting="false" start="2026-08-17" duration="105" complete="50" expand="true" cost-manual-value="0" cost-calculated="false">
+                <notes>Responsável: Mariana Mourão Sampaio. Disciplina vinculada: Metodologia de Pesquisa. Horas por sprint (Sp1..Sp8): 4, 2, 2, 2, 2, 4, 4, 0.</notes>
+                <customproperty taskproperty-id="tpc0" value="1.4.8" />
+                <customproperty taskproperty-id="tpc1" value="20" />
+                <customproperty taskproperty-id="tpc2" value="10" />
+                <customproperty taskproperty-id="tpc3" value="50.0" />
+                <customproperty taskproperty-id="tpc4" value="800.0" />
+            </task>
+            <task id="77" uid="5bfc2ef94f6851639de81eb1fc91f4ba" name="1.4.9 Textos do dicionário didático em linguagem simples (Comunicação e Expressão)" color="#5B7BD5" meeting="false" start="2026-09-21" duration="77" complete="33" expand="true" cost-manual-value="0" cost-calculated="false">
+                <notes>Responsável: Yago Barbosa Dini. Disciplina vinculada: Comunicação e Expressão. Horas por sprint (Sp1..Sp8): 0, 0, 5, 2, 0, 2, 1, 5.</notes>
+                <customproperty taskproperty-id="tpc0" value="1.4.9" />
+                <customproperty taskproperty-id="tpc1" value="15" />
+                <customproperty taskproperty-id="tpc2" value="5" />
+                <customproperty taskproperty-id="tpc3" value="33.33" />
+                <customproperty taskproperty-id="tpc4" value="600.0" />
+            </task>
+            <task id="78" uid="f2fe89af59fa513dbbc20d4e2885a1fb" name="1.4.10 Testes de aceitação, homologação e release R1" color="#5B7BD5" meeting="false" start="2026-11-30" duration="7" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+                <notes>Responsável: Mariana Mourão Sampaio. Horas por sprint (Sp1..Sp8): 0, 0, 0, 0, 0, 0, 0, 20.</notes>
+                <customproperty taskproperty-id="tpc0" value="1.4.10" />
+                <customproperty taskproperty-id="tpc1" value="20" />
+                <customproperty taskproperty-id="tpc2" value="0" />
+                <customproperty taskproperty-id="tpc3" value="0.0" />
+                <customproperty taskproperty-id="tpc4" value="800.0" />
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Mirela Andressa de Oliveira" function="0" contacts="" phone="" />
+        <resource id="1" name="Ana Tayná Reis Maciel" function="1" contacts="" phone="" />
+        <resource id="2" name="Mariana Mourão Sampaio" function="2" contacts="" phone="" />
+        <resource id="3" name="Victor Lis Bronzo" function="3" contacts="" phone="" />
+        <resource id="4" name="Yago Barbosa Dini" function="4" contacts="" phone="" />
+    </resources>
+    <allocations>
+        <allocation task-id="3" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="3" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="3" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="3" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="3" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="4" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="4" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="4" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="4" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="4" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="5" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="5" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="5" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="5" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="5" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="6" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="6" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="6" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="6" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="6" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="7" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="7" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="7" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="7" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="7" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="8" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="8" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="8" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="8" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="8" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="9" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="9" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="9" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="9" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="9" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="10" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="10" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="10" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="10" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="10" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="12" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="12" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="12" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="12" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="12" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="13" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="13" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="13" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="13" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="13" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="14" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="14" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="14" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="14" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="14" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="15" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="15" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="15" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="15" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="15" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="16" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="16" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="16" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="16" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="16" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="17" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="17" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="17" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="17" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="17" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="18" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="18" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="18" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="18" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="18" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="19" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="19" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="19" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="19" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="19" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="21" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="21" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="21" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="21" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="21" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="22" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="22" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="22" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="22" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="22" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="23" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="23" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="23" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="23" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="23" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="24" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="24" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="24" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="24" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="24" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="25" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="25" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="25" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="25" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="25" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="26" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="26" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="26" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="26" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="26" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="27" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="27" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="27" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="27" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="27" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="28" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="28" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="28" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="28" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="28" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="32" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="32" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="32" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="32" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="32" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="33" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="33" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="33" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="33" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="33" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="34" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="34" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="34" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="34" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="34" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="36" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="36" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="36" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="36" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="36" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="38" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="38" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="38" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="38" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="38" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="39" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="39" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="39" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="39" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="39" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="40" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="40" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="40" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="40" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="40" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="42" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="42" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="42" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="42" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="42" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="48" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="48" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="48" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="48" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="48" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="49" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="49" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="49" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="49" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="49" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="50" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="50" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="50" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="50" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="50" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="51" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="51" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="51" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="51" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="51" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="52" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="52" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="52" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="52" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="52" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="53" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="53" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="53" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="53" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="53" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="54" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="54" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="54" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="54" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="54" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="55" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="55" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="55" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="55" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="55" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="59" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="59" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="59" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="59" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="59" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="60" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="60" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="60" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="60" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="60" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="61" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="61" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="61" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="61" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="61" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="62" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="62" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="62" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="62" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="62" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="63" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="63" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="63" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="63" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="63" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="64" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="64" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="64" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="64" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="64" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="65" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="65" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="65" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="65" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="65" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="66" resource-id="0" function="0" responsible="false" load="12.5" />
+        <allocation task-id="66" resource-id="1" function="1" responsible="false" load="12.5" />
+        <allocation task-id="66" resource-id="2" function="2" responsible="false" load="12.5" />
+        <allocation task-id="66" resource-id="3" function="3" responsible="false" load="12.5" />
+        <allocation task-id="66" resource-id="4" function="4" responsible="false" load="12.5" />
+        <allocation task-id="69" resource-id="0" function="0" responsible="true" load="0.0" />
+        <allocation task-id="70" resource-id="3" function="3" responsible="true" load="0.0" />
+        <allocation task-id="71" resource-id="3" function="3" responsible="true" load="0.0" />
+        <allocation task-id="72" resource-id="1" function="1" responsible="true" load="0.0" />
+        <allocation task-id="73" resource-id="2" function="2" responsible="true" load="0.0" />
+        <allocation task-id="74" resource-id="4" function="4" responsible="true" load="0.0" />
+        <allocation task-id="75" resource-id="1" function="1" responsible="true" load="0.0" />
+        <allocation task-id="76" resource-id="2" function="2" responsible="true" load="0.0" />
+        <allocation task-id="77" resource-id="4" function="4" responsible="true" load="0.0" />
+        <allocation task-id="78" resource-id="2" function="2" responsible="true" load="0.0" />
+    </allocations>
+    <vacations />
+    <previous>
+        <previous-tasks name="BL-PLAN (linha de base congelada)">
+            <previous-task id="0" start="2025-03-10" duration="1003" meeting="false" super="true" />
+            <previous-task id="1" start="2025-03-10" duration="0" meeting="true" super="false" />
+            <previous-task id="2" start="2025-03-10" duration="112" meeting="false" super="true" />
+            <previous-task id="3" start="2025-03-10" duration="14" meeting="false" super="false" />
+            <previous-task id="4" start="2025-03-24" duration="14" meeting="false" super="false" />
+            <previous-task id="5" start="2025-04-07" duration="14" meeting="false" super="false" />
+            <previous-task id="6" start="2025-04-21" duration="14" meeting="false" super="false" />
+            <previous-task id="7" start="2025-05-05" duration="14" meeting="false" super="false" />
+            <previous-task id="8" start="2025-05-19" duration="14" meeting="false" super="false" />
+            <previous-task id="9" start="2025-06-02" duration="14" meeting="false" super="false" />
+            <previous-task id="10" start="2025-06-16" duration="14" meeting="false" super="false" />
+            <previous-task id="11" start="2025-08-25" duration="112" meeting="false" super="true" />
+            <previous-task id="12" start="2025-08-25" duration="14" meeting="false" super="false" />
+            <previous-task id="13" start="2025-09-08" duration="14" meeting="false" super="false" />
+            <previous-task id="14" start="2025-09-22" duration="14" meeting="false" super="false" />
+            <previous-task id="15" start="2025-10-06" duration="14" meeting="false" super="false" />
+            <previous-task id="16" start="2025-10-20" duration="14" meeting="false" super="false" />
+            <previous-task id="17" start="2025-11-03" duration="14" meeting="false" super="false" />
+            <previous-task id="18" start="2025-11-17" duration="14" meeting="false" super="false" />
+            <previous-task id="19" start="2025-12-01" duration="14" meeting="false" super="false" />
+            <previous-task id="20" start="2026-03-09" duration="112" meeting="false" super="true" />
+            <previous-task id="21" start="2026-03-09" duration="14" meeting="false" super="false" />
+            <previous-task id="22" start="2026-03-23" duration="14" meeting="false" super="false" />
+            <previous-task id="23" start="2026-04-06" duration="14" meeting="false" super="false" />
+            <previous-task id="24" start="2026-04-20" duration="14" meeting="false" super="false" />
+            <previous-task id="25" start="2026-05-04" duration="14" meeting="false" super="false" />
+            <previous-task id="26" start="2026-05-18" duration="14" meeting="false" super="false" />
+            <previous-task id="27" start="2026-06-01" duration="14" meeting="false" super="false" />
+            <previous-task id="28" start="2026-06-15" duration="14" meeting="false" super="false" />
+            <previous-task id="29" start="2026-06-28" duration="0" meeting="true" super="false" />
+            <previous-task id="30" start="2026-08-17" duration="112" meeting="false" super="true" />
+            <previous-task id="31" start="2026-08-17" duration="0" meeting="true" super="false" />
+            <previous-task id="32" start="2026-08-17" duration="21" meeting="false" super="false" />
+            <previous-task id="33" start="2026-09-07" duration="14" meeting="false" super="false" />
+            <previous-task id="34" start="2026-09-21" duration="14" meeting="false" super="false" />
+            <previous-task id="35" start="2026-10-02" duration="0" meeting="true" super="false" />
+            <previous-task id="36" start="2026-10-05" duration="14" meeting="false" super="false" />
+            <previous-task id="37" start="2026-10-12" duration="0" meeting="true" super="false" />
+            <previous-task id="38" start="2026-10-19" duration="14" meeting="false" super="false" />
+            <previous-task id="39" start="2026-11-02" duration="14" meeting="false" super="false" />
+            <previous-task id="40" start="2026-11-16" duration="14" meeting="false" super="false" />
+            <previous-task id="41" start="2026-11-27" duration="0" meeting="true" super="false" />
+            <previous-task id="42" start="2026-11-30" duration="7" meeting="false" super="false" />
+            <previous-task id="43" start="2026-11-30" duration="0" meeting="true" super="false" />
+            <previous-task id="44" start="2026-12-06" duration="0" meeting="true" super="false" />
+            <previous-task id="45" start="2026-12-07" duration="0" meeting="true" super="false" />
+            <previous-task id="46" start="2027-03-08" duration="112" meeting="false" super="true" />
+            <previous-task id="47" start="2027-03-08" duration="0" meeting="true" super="false" />
+            <previous-task id="48" start="2027-03-08" duration="14" meeting="false" super="false" />
+            <previous-task id="49" start="2027-03-22" duration="14" meeting="false" super="false" />
+            <previous-task id="50" start="2027-04-05" duration="14" meeting="false" super="false" />
+            <previous-task id="51" start="2027-04-19" duration="14" meeting="false" super="false" />
+            <previous-task id="52" start="2027-05-03" duration="14" meeting="false" super="false" />
+            <previous-task id="53" start="2027-05-17" duration="14" meeting="false" super="false" />
+            <previous-task id="54" start="2027-05-31" duration="14" meeting="false" super="false" />
+            <previous-task id="55" start="2027-06-14" duration="14" meeting="false" super="false" />
+            <previous-task id="56" start="2027-06-27" duration="0" meeting="true" super="false" />
+            <previous-task id="57" start="2027-08-18" duration="112" meeting="false" super="true" />
+            <previous-task id="58" start="2027-08-18" duration="0" meeting="true" super="false" />
+            <previous-task id="59" start="2027-08-18" duration="14" meeting="false" super="false" />
+            <previous-task id="60" start="2027-09-01" duration="14" meeting="false" super="false" />
+            <previous-task id="61" start="2027-09-15" duration="14" meeting="false" super="false" />
+            <previous-task id="62" start="2027-09-29" duration="14" meeting="false" super="false" />
+            <previous-task id="63" start="2027-10-13" duration="14" meeting="false" super="false" />
+            <previous-task id="64" start="2027-10-27" duration="14" meeting="false" super="false" />
+            <previous-task id="65" start="2027-11-10" duration="14" meeting="false" super="false" />
+            <previous-task id="66" start="2027-11-24" duration="14" meeting="false" super="false" />
+            <previous-task id="67" start="2027-12-07" duration="0" meeting="true" super="false" />
+            <previous-task id="68" start="2026-08-17" duration="112" meeting="false" super="true" />
+            <previous-task id="69" start="2026-08-17" duration="112" meeting="false" super="false" />
+            <previous-task id="70" start="2026-08-17" duration="105" meeting="false" super="false" />
+            <previous-task id="71" start="2026-08-17" duration="112" meeting="false" super="false" />
+            <previous-task id="72" start="2026-08-17" duration="105" meeting="false" super="false" />
+            <previous-task id="73" start="2026-08-17" duration="112" meeting="false" super="false" />
+            <previous-task id="74" start="2026-09-21" duration="77" meeting="false" super="false" />
+            <previous-task id="75" start="2026-09-07" duration="84" meeting="false" super="false" />
+            <previous-task id="76" start="2026-08-17" duration="105" meeting="false" super="false" />
+            <previous-task id="77" start="2026-09-21" duration="77" meeting="false" super="false" />
+            <previous-task id="78" start="2026-11-30" duration="7" meeting="false" super="false" />
+        </previous-tasks>
+    </previous>
+    <roles roleset-name="Default" />
+    <roles>
+        <role id="0" name="Gestora do projeto" />
+        <role id="1" name="Back-End" />
+        <role id="2" name="Banco de Dados e QA" />
+        <role id="3" name="Dev Full-Stack (Líder Técnico)" />
+        <role id="4" name="Front-End" />
+    </roles>
+</project>
