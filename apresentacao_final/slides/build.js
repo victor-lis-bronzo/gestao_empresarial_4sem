@@ -94,18 +94,18 @@ const NOTES = [
  "O custo-hora é o salário de referência × 1,70 ÷ 160 horas, arredondado para múltiplos de R$ 5. O fator 1,70 cobre encargos, férias, 13º e benefícios. O resultado é R$ 110 para a gerente, R$ 100 para o sênior, R$ 70 para cada pleno e R$ 45 para o júnior. Cada pessoa dedica 5 h por semana, o que dá 80 h por semestre e 480 h no projeto. Exemplo: Mirela custa 480 h × R$ 110 = R$ 52.800.",
  "A média do custo-hora é (110 + 100 + 70 + 70 + 45) ÷ 5 = R$ 79. Cada integrante tem 480 h no projeto, então são 2.400 h no total. O orçamento é 2.400 h × R$ 79 = R$ 189.600, o mesmo valor que se obtém somando o custo total de cada pessoa. Antes, com R$ 40 por hora, o total era R$ 96.000.",
  "O BAC é o orçamento do projeto inteiro: R$ 189.600. O VP é quanto deveria estar pronto até 22/11: 1.525 h × R$ 79 = R$ 120.475. O VA é quanto realmente foi entregue e aceito, também R$ 120.475. O CR é quanto realmente se gastou: R$ 120.475. Por isso o índice de prazo (IDP) = VA ÷ VP = 1,00 e o índice de custo (IDC) = VA ÷ CR = 1,00.",
- "As variações são zero: VA − VP = 0 no prazo e VA − CR = 0 no custo. O que falta fazer é (BAC − VA) ÷ IDC = (R$ 189.600 − R$ 120.475) ÷ índice de custo 1,00 = R$ 69.125, o que equivale a 875 horas. A reserva de contingência é 10% do orçamento com a proposta: 10% de R$ 193.286,52 = R$ 19.328,65, e está intacta. Sem a proposta, seria 10% de R$ 189.600 = R$ 18.960. O orçamento total, com reserva e R$ 1.040 de infraestrutura, é R$ 193.286,52 + R$ 19.328,65 + R$ 1.040 = R$ 213.655,17; sem a proposta, R$ 189.600 + R$ 18.960 + R$ 1.040 = R$ 209.600.",
- "No ciclo S4 foram feitas 325 das 400 horas, ou 81,25% (325 ÷ 400). As sprints concluídas entregaram o login com Google e os perfis Admin e Editor, a migração para a versão LTS do Node.js, a integração contínua, o cadastro de especificações e mídias, o catálogo público, o backup do PostgreSQL e o monitoramento de disponibilidade. Esse é o ciclo que leva ao R1.",
- "O beta do R1 sai em 27/11/2026, em produção com acesso restrito, junto com a decisão do investidor sobre a proposta. De 30/11 a 06/12 é a sprint 8, de homologação e estabilização. O R1 vai ao ar em 06/12/2026. Ele não pode ser acelerado: faltam só 2 semanas e incluir gente agora atrasaria.",
+ "As variações são zero: VA − VP = 0 no prazo e VA − CR = 0 no custo. O que falta fazer é (BAC − VA) ÷ IDC = (R$ 189.600 − R$ 120.475) ÷ índice de custo 1,00 = R$ 69.125, o que equivale a 875 horas. A reserva de contingência é 10% do orçamento com a proposta: 10% de R$ 193.286,52 = R$ 19.328,65, e está intacta. Sem a proposta, seria 10% de R$ 189.600 = R$ 18.960. O orçamento total, com reserva e R$ 1.040 de infraestrutura, é R$ 193.286,52 + R$ 19.328,65 + R$ 1.040 = R$ 213.655,17; sem a proposta, R$ 189.600 + R$ 18.960 + R$ 1.040 = R$ 209.600. A reserva de R$ 19.328,65 só passa a valer se a proposta for aprovada; hoje a reserva vigente é R$ 18.960.",
+ "No semestre atual foram feitas 325 das 400 horas, ou 81,25% (325 ÷ 400): 300 h das sprints 1 a 6 mais 25 h da sprint 7. As sprints concluídas entregaram o login com Google e os perfis Admin e Editor, a migração para a versão LTS do Node.js, a integração contínua, o cadastro de especificações e mídias, o catálogo público, o backup do PostgreSQL e o monitoramento de disponibilidade. Esse é o ciclo que leva ao R1.",
+ "O beta do R1 sai em 27/11/2026, em produção com acesso restrito, junto com a decisão do investidor sobre a proposta. De 30/11 a 06/12 é a sprint 8, de homologação e estabilização. O R1 vai ao ar em 06/12/2026. Ele não pode ser acelerado: faltam só 2 semanas e incluir gente agora atrasaria. É a Lei de Brooks: colocar mais gente perto da entrega costuma atrasar em vez de acelerar, porque o time novo precisa aprender e a equipe perde tempo ensinando.",
  "O projeto está em dia, mas o plano original tem um limite: a equipe só trabalha nos semestres letivos. Há duas janelas paradas, de dezembro a março e de julho a agosto. A receita só começa no R2, quando entra o redirecionamento ao varejo com link de afiliado, previsto para 27/06/2027.",
- "A proposta é contratar 2 desenvolvedores, 1 pleno (R$ 70 por hora) e 1 júnior (R$ 45 por hora), com 20 horas por semana cada, a partir de 07/12/2026 até o R3. Com isso a equipe fundadora fica com cerca de 580 horas livres nos semestres S5 e S6 para escopo novo, via nova solicitação de mudança. Durante o recesso de 21/12/2026 a 03/01/2027 ninguém trabalha.",
- "Com a proposta, o R2 passa de 27/06/2027 para 21/03/2027, que é 14 semanas (98 dias) antes. O R3 passa de 07/12/2027 para 09/05/2027, 30 semanas (212 dias) antes. A comparação é entre o plano original e o cenário acelerado, com o mesmo escopo: nenhum requisito foi cortado.",
- "O cenário acelerado usa 252 horas a mais, de 800 para 1.052 horas pagas no R2 e no R3, por causa da adaptação dos contratados, da coordenação e da mentoria (Lei de Brooks). O custo desse trecho sobe de R$ 63.200 para R$ 66.886,52, ou seja, +R$ 3.686,52 (+5,8%). O orçamento (BAC) passa de R$ 189.600 para R$ 193.286,52. Cada semana ganha custa cerca de R$ 121,72.",
- "O aporte cobre só o que exige dinheiro: contratados R$ 45.543,35, recrutamento, contas e ferramentas R$ 3.000 e servidor extra com monitoramento por 12 meses R$ 1.200. O subtotal é R$ 49.743,35. Soma-se uma reserva de 15% (R$ 7.461,50), chegando a R$ 57.204,85, arredondado para R$ 60.000. As horas da equipe e a mentoria não entram: são pagas em participação, não em dinheiro.",
+ "A proposta é contratar 2 desenvolvedores, 1 pleno (R$ 70 por hora) e 1 júnior (R$ 45 por hora), com 20 horas por semana cada, a partir de 07/12/2026 até o R3. Com isso a equipe fundadora fica com cerca de 580 horas livres nos semestres S5 e S6 para escopo novo (800 h previstas para o R2 e o R3 menos 220 h que a equipe ainda faria = 580 h), via nova solicitação de mudança. Durante o recesso de 21/12/2026 a 03/01/2027 ninguém trabalha.",
+ "Com a proposta, o R2 passa de 27/06/2027 para 21/03/2027, que é 14 semanas (98 dias) antes. O R3 passa de 07/12/2027 para 09/05/2027, 30 semanas (212 dias) antes. A comparação é entre o plano original e o cenário acelerado, com o mesmo escopo: nenhum requisito foi cortado. A simulação semana a semana considera os 2 contratados com 40 h pagas por semana (20 h cada), produtividade de 50% nas semanas 1 e 2, 75% nas semanas 3 e 4 e 90% depois, desconto de 10% para coordenação, o recesso sem trabalho e a equipe fundadora só nos semestres letivos.",
+ "O cenário acelerado usa 252 horas a mais, de 800 para 1.052 horas pagas no R2 e no R3, por causa da adaptação dos contratados, da coordenação e da mentoria (Lei de Brooks: mais gente no time exige tempo para aprender e para se coordenar). As 1.052 h são 220 h da equipe fundadora + 792 h dos contratados + 40 h de mentoria do líder técnico. O custo desse trecho sobe de R$ 63.200 para R$ 66.886,52, ou seja, +R$ 3.686,52 (+5,8%). O orçamento (BAC) passa de R$ 189.600 para R$ 193.286,52. Cada semana ganha custa cerca de R$ 121,72 (R$ 3.686,52 ÷ 30,3 semanas ganhas no R3). O custo extra é pequeno porque as horas dos fundadores são pagas em participação, não em dinheiro; os R$ 60.000 do aporte são caixa, usado para pagar os contratados e outros custos (próximo bloco de slides).",
+ "O aporte cobre só o que exige dinheiro: contratados R$ 45.543,35, recrutamento, contas e ferramentas R$ 3.000 e servidor extra com monitoramento por 12 meses R$ 1.200. O subtotal é R$ 49.743,35. Soma-se uma folga de caixa de 15% (R$ 7.461,50, mostrada como R$ 7.462), chegando a R$ 57.204,85, arredondado para R$ 60.000. Os R$ 4.200 de recrutamento e servidor extra são caixa da proposta e não estão no orçamento (BAC) de R$ 193.286,52, que cobre as horas e a infraestrutura base. As horas da equipe e a mentoria não entram: são pagas em participação, não em dinheiro.",
  "O valor da empresa antes do aporte foi ancorado por dois métodos. O custo de reposição, que é quanto custaria refazer o R1 (1.600 h × R$ 79 mais infraestrutura), dá R$ 126.680. O método Berkus, para startups sem receita, soma fatores e dá R$ 240.000, que foi o valor adotado, cerca de 1,9 vez o custo de reposição. Com o aporte de R$ 60.000, o valor depois é R$ 300.000, e o investidor fica com 60.000 ÷ 300.000 = 20%. Cada fundador cai de 20% para 16%.",
- "A receita vem da comissão de afiliados a partir do R2: visitas × cliques para o varejo × conversão × ticket médio × comissão. No cenário base são 8.000 visitas, 15% de cliques, 3% de conversão, ticket de R$ 3.500 e 4% de comissão, o que dá 36 compras e R$ 5.040 por mês. Antecipar o R2 antecipa essa receita em 3,2 meses. O ganho líquido da antecipação é a receita antecipada (R$ 16.226,02) menos o custo extra (R$ 3.686,52) = R$ 12.539,50; o aporte de R$ 60.000 é medido pelo tempo para se pagar: 11,9 meses no cenário base, 83,3 no pessimista e 2,5 no otimista.",
+ "A receita vem da comissão de afiliados a partir do R2: visitas × cliques para o varejo × conversão × ticket médio × comissão. No cenário base são 8.000 visitas, 15% de cliques, 3% de conversão, ticket de R$ 3.500 e 4% de comissão, o que dá 36 compras e R$ 5.040 por mês. Antecipar o R2 antecipa essa receita em 3,2 meses (98 dias ÷ 30,44; R$ 5.040 × 3,2 = R$ 16.226). O ganho líquido da antecipação é a receita antecipada (R$ 16.226,02) menos o custo extra (R$ 3.686,52) = R$ 12.539,50; o aporte de R$ 60.000 é medido por outra conta, o tempo que a receita do produto leva para cobri-lo (R$ 60.000 ÷ R$ 5.040 por mês): 11,9 meses no cenário base, 83,3 no pessimista e 2,5 no otimista.",
  "O aporte de R$ 60.000 sai em duas parcelas de R$ 30.000, ligadas a entregas. A parcela 1 vem em 07/12/2026, com a proposta aprovada e o R1 (versão 1.0) aceito. A parcela 2 vem em 21/03/2027, com o R2 entregue no cenário acelerado. Assim o investidor só paga conforme o projeto entrega.",
- "Cada risco tem uma nota igual à probabilidade × o impacto, e cada um vai de 1 a 3, então a nota máxima é 9. Só dois riscos chegam a 9: o R02, configuração do servidor, e o R10, bloqueadores de anúncio barrando links de afiliado. Os dois têm plano de mitigação e serão verificados no beta do R1, em 27/11.",
+ "Cada risco tem uma nota igual à probabilidade × o impacto, e cada um vai de 1 a 3, então a nota máxima é 9. Só dois riscos chegam a 9: o R02, configuração do servidor, e o R10, bloqueadores de anúncio barrando links de afiliado. Os dois têm plano de mitigação. O R02 será verificado no beta do R1, em 27/11; o R10 só pode ser testado quando o R2 entregar o redirecionamento de afiliados.",
  "R12 e R14 têm nota 6, ou seja, probabilidade média (2) × impacto alto (3). O R12 é a proposta não ser aprovada ou as parcelas atrasarem. O R14 é o líder técnico virar gargalo ao acumular desenvolvimento crítico e 2 h por semana de mentoria. Os dois têm resposta definida e responsável.",
  "A nota de cada risco aparece no círculo: R01 = 6, R02 = 9, R03 = 4 e R04 = 6, sempre probabilidade × impacto. R02 tem nota máxima (alta × alto). A ação A2, ligada ao R03 (protocolo do catálogo), foi concluída em 13/11/2026.",
  "As notas são: R05 = 6 (alta × médio), R06 = 6 (média × alto) e R07 = 3 (baixa × alto). A ação A4 (monitoramento externo e backup), ligada ao R06, e a A5 (checklist de LGPD), ligada ao R07, foram concluídas em 13/11/2026. Os dois riscos seguem com mitigação parcial.",
@@ -155,7 +155,7 @@ function sec(t) { section = t; pres.addSection({ title: t }); }
     const items = [
       ["LuCircleCheck", "VERDE", "Status Geral", "No prazo e dentro do custo"],
       ["LuGauge", "63,54%", "Esforço Concluído", "1.525 h feitas de 2.400 h"],
-      ["LuTarget", "1,00", "Índices IDP e IDC", "Prazo e custo: 1,00 = no plano"],
+      ["LuTarget", "1,00", "IDP e IDC", "Desempenho de prazo e de custo"],
       ["LuRocket", "06/12", "Entrega do R1", "Versão 1.0, data confirmada"],
     ];
     const cw = (CW - 0.33) / 2;
@@ -280,16 +280,16 @@ function sec(t) { section = t; pres.addSection({ title: t }); }
   // =============== 9-10. ENTREGA S4 ===============
   sec("Entrega Atual");
   {
-    const s = content("ENTREGA EM ANDAMENTO.", "Ciclo S4 · Reta Final da Release R1 · sprints 1 a 6 do semestre", 6);
+    const s = content("ENTREGA EM ANDAMENTO.", "Semestre Atual · Reta Final da Release R1", 6);
     // progress bar
-    T(s, "Ciclo S4 concluído (325 de 400 h)", { x: MX, y: 2.05, w: 6, h: 0.4, fontFace: MONO, fontSize: 16, color: GREY, valign: "middle" });
+    T(s, "Semestre atual: 325 de 400 h feitas", { x: MX, y: 2.05, w: 6, h: 0.4, fontFace: MONO, fontSize: 16, color: GREY, valign: "middle" });
     T(s, "81,25%", { x: MX + CW - 3, y: 2.05, w: 3, h: 0.4, fontSize: 22, bold: true, color: BLUE_T, align: "right", valign: "middle" });
     s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: MX, y: 2.55, w: CW, h: 0.3, rectRadius: 0.15, fill: { color: "1C1C22" }, line: { color: "1C1C22", width: 0 } });
     s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: MX, y: 2.55, w: CW * 0.8125, h: 0.3, rectRadius: 0.15, fill: { color: BLUE }, line: { color: BLUE, width: 0 } });
     // left: step 01
     await badge(s, "LuCircleCheck", MX, 3.35, 1.2);
-    T(s, "01 · CONCLUÍDO", { x: MX, y: 4.75, w: 3.6, h: 0.5, fontFace: MONO, fontSize: 22, bold: true });
-    T(s, "Sprints 1 a 6", { x: MX, y: 5.3, w: 3.6, h: 0.45, fontSize: 20, color: GREY });
+    T(s, "01 · FEITO", { x: MX, y: 4.75, w: 3.6, h: 0.5, fontFace: MONO, fontSize: 22, bold: true });
+    T(s, "Sprints 1 a 6 e parte da 7", { x: MX, y: 5.3, w: 3.6, h: 0.45, fontSize: 20, color: GREY });
     T(s, "Base técnica entregue:", { x: MX, y: 5.85, w: 3.6, h: 0.45, fontSize: 18, color: GREY });
     // right: stack chips
     const chips = [["LuLayers", "Arquitetura aprovada"], ["LuDatabase", "PostgreSQL"], ["LuPackage", "Prisma / Drizzle"], ["LuServer", "Fastify"],
@@ -307,7 +307,7 @@ function sec(t) { section = t; pres.addSection({ title: t }); }
     const steps = [
       ["LuFlag", "02 · 27/11/2026", "Beta R1 & Decisão", "Versão beta no ar e decisão formal do investidor sobre a proposta."],
       ["LuLock", "03 · 30/11/2026", "Versão candidata", "Congelamento do código e validação final da versão candidata."],
-      ["LuRocket", "04 · 06/12/2026", "R1 em Produção", "Versão 1.0 no ar, confirmada. Não dá para acelerar: incluir gente agora atrasaria (Lei de Brooks)."],
+      ["LuRocket", "04 · 06/12/2026", "R1 em Produção", "Versão 1.0 no ar, confirmada. Não dá para acelerar: incluir gente agora atrasaria, porque o time novo precisa de tempo para aprender."],
     ];
     const cw = (CW - 2 * 0.4) / 3;
     const centers = [0, 1, 2].map(i => MX + i * (cw + 0.4) + cw / 2);
@@ -347,7 +347,7 @@ function sec(t) { section = t; pres.addSection({ title: t }); }
     await threeCols(s, [
       ["LuUserPlus", "REFORÇO DEDICADO", "1 Pleno (R$ 70/h) + 1 Júnior (R$ 45/h), 20 h/sem."],
       ["LuSun", "INÍCIO NAS FÉRIAS", "Contratação em 07/12/2026 para manter o ritmo."],
-      ["LuFeather", "ALÍVIO S5/S6", "Libera 580 h da equipe fundadora nos semestres."],
+      ["LuFeather", "ALÍVIO FUTURO", "Libera 580 h da equipe fundadora no 5º e no 6º semestre."],
     ], true);
   }
 
@@ -400,7 +400,7 @@ function sec(t) { section = t; pres.addSection({ title: t }); }
       ["LuUsers", "R$ 45.543", "Contratados"],
       ["LuSearch", "R$ 3.000", "Recrutamento"],
       ["LuServer", "R$ 1.200", "2º servidor"],
-      ["LuShieldCheck", "R$ 7.461", "Reserva 15%"],
+      ["LuShieldCheck", "R$ 7.462", "Folga 15%"],
     ];
     const expl = ["Horas dos 2 devs × custo-hora", "Contas e ferramentas", "Servidor extra por 12 meses", "Folga de 15% sobre o subtotal"];
     const cw = (CW - 3 * 0.3) / 4;
@@ -457,7 +457,7 @@ function sec(t) { section = t; pres.addSection({ title: t }); }
     T(s, "CENÁRIO BASE", { x: x + 0.35, y: 2.4, w: cw - 0.6, h: 0.4, fontFace: MONO, fontSize: 16, bold: true, color: BLUE_T });
     T(s, [{ text: "R$ 5.040", options: { fontSize: 40, bold: true, color: BLUE_T } }, { text: "/mês", options: { fontSize: 22, color: GREY } }],
       { x: x + 0.35, y: 2.85, w: cw - 0.5, h: 0.8, valign: "middle" });
-    const rows = [["LuUsers", "8 mil visitas/mês", 0.5], ["LuShoppingCart", "36 vendas/mês", 0.5], ["LuCoins", "Ganho líq. da antecipação: R$ 12.539,50", 0.8]];
+    const rows = [["LuUsers", "8 mil visitas/mês", 0.5], ["LuShoppingCart", "36 vendas/mês", 0.5], ["LuCoins", "Ganho líquido da antecipação (receita − custo extra): R$ 12.539,50", 1.15]];
     let yy = 3.8;
     for (let i = 0; i < 3; i++) {
       const y = yy;
@@ -465,7 +465,7 @@ function sec(t) { section = t; pres.addSection({ title: t }); }
       T(s, rows[i][1], { x: x + 0.95, y, w: cw - 1.1, h: rows[i][2], fontSize: 18, valign: "middle" });
       yy += rows[i][2] + 0.1;
     }
-    T(s, "receita antecipada − custo extra · o aporte se paga em 11,9 meses", { x: x + 0.35, y: yy + 0.05, w: cw - 0.6, h: 0.85, fontSize: 16, color: GREY });
+    T(s, "O aporte de R$ 60.000 se paga em 11,9 meses", { x: x + 0.35, y: yy + 0.05, w: cw - 0.6, h: 0.55, fontSize: 16, color: GREY });
   }
   {
     const s = content("APORTE EM 2 PARCELAS.", "R$ 60 mil Liberados por Marco de Entrega", 10);
@@ -513,7 +513,7 @@ function sec(t) { section = t; pres.addSection({ title: t }); }
     const cw = (CW - 0.33) / 2;
     await riskCard(s, MX, 2.15, cw, 4.45, { id: "R12", score: "NOTA 6 · PROB. MÉDIA × IMPACTO ALTO", title: "Não aprovação da proposta ou atraso das parcelas",
       mit: "Estudo financeiro com projeto em dia; parcelas ligadas às entregas.", resp: "Mirela (GP)" }, false);
-    await riskCard(s, MX + cw + 0.33, 2.15, cw, 4.45, { id: "R14", score: "NOTA 6 · PROB. MÉDIA × IMPACTO ALTO", title: "Gargalo no Líder Técnico (Lei de Brooks)",
+    await riskCard(s, MX + cw + 0.33, 2.15, cw, 4.45, { id: "R14", score: "NOTA 6 · PROB. MÉDIA × IMPACTO ALTO", title: "Gargalo no Líder Técnico (o time novo depende dele)",
       mit: "Limite de 2 h por semana de mentoria, listas de checagem e revisões divididas.", resp: "Victor (Líder Téc.) / Mirela (GP)" }, false);
     caption(s, "R12 e R14: riscos da proposta com nota 6 · Numeração conforme Matriz de Riscos v3", 6.78);
   }
@@ -547,7 +547,7 @@ function sec(t) { section = t; pres.addSection({ title: t }); }
     { id: "R01", icon: "LuDatabase", cat: "Técnico · Banco de dados", title: "Conflitos entre Prisma e Drizzle", score: 6, pi: "Média × Alto",
       mit: "Prisma para tabelas e Drizzle para consultas rápidas; teste feito e modelo revisado." },
     { id: "R02", icon: "LuServer", cat: "Técnico · Infraestrutura", title: "Configuração do servidor", score: 9, pi: "Alta × Alto",
-      mit: "Configuração versionada desde o S4; publicação testada antes do beta do R1 (27/11)." },
+      mit: "Configuração versionada desde o início do semestre; publicação testada antes do beta do R1 (27/11)." },
     { id: "R03", icon: "LuClipboardList", cat: "Gestão · Escopo/Catálogo", title: "Atraso na curadoria do catálogo", score: 4, pi: "Média × Médio",
       mit: "Catálogo inicial só com CPUs, placas de vídeo, notebooks e celulares, com validação." },
     { id: "R04", icon: "LuPlug", cat: "Integração · Site e servidor", title: "Contratos e tipagem entre site e servidor", score: 6, pi: "Média × Alto",
@@ -570,7 +570,7 @@ function sec(t) { section = t; pres.addSection({ title: t }); }
       mit: "Estudo financeiro com projeto em dia; parcelas ligadas às entregas." },
     { id: "R13", icon: "LuUserPlus", cat: "Recursos Humanos (proposta)", title: "Atraso no recrutamento ou na adaptação", score: 4, pi: "Média × Médio",
       mit: "Triagem desde 23/11, arquitetura e ambiente prontos, mentoria desde 07/12/2026." },
-    { id: "R14", icon: "LuUserCog", cat: "Técnico · Pessoas (proposta)", title: "Gargalo no Líder Técnico (Lei de Brooks)", score: 6, pi: "Média × Alto",
+    { id: "R14", icon: "LuUserCog", cat: "Técnico · Pessoas (proposta)", title: "Gargalo no Líder Técnico (o time novo depende dele)", score: 6, pi: "Média × Alto",
       mit: "Limite de 2 h por semana de mentoria, listas de checagem na revisão de código e revisões divididas com Ana Tayná e Mariana." },
     { id: "R15", icon: "LuTrendingDown", cat: "Negócios · Receita (proposta)", title: "Tráfego abaixo do cenário base", score: 6, pi: "Média × Alto",
       mit: "2ª parcela só após a entrega do R2; visitas e cliques medidos desde o R1." },
@@ -591,7 +591,7 @@ function sec(t) { section = t; pres.addSection({ title: t }); }
     const rows = [
       ["LuRadar", `${R.length} riscos`, "monitorados", `${crit} críticos (nota 9: R02 e R10) · ${med} médios · ${low} baixos · nota média ${media}`],
       ["LuShieldCheck", "0", "materializados", "Nenhum risco virou problema · Reserva intacta: 10% × R$ 193.286,52 = R$ 19.328,65 (sem a proposta: 10% × R$ 189.600 = R$ 18.960)"],
-      ["LuCalendarClock", "27/11", "próxima verificação", "Beta do R1 valida R02 (servidor) e R10 (afiliados) · decisão da proposta resolve R12 · acordo de acionistas trata R16"],
+      ["LuCalendarClock", "27/11", "próxima verificação", "Beta do R1 valida R02 (servidor) · R10 (afiliados) só dá para testar no R2 · decisão da proposta resolve R12 · acordo de acionistas trata R16"],
     ];
     for (let i = 0; i < 3; i++) {
       const y = 2.15 + i * 1.55, h = 1.35;

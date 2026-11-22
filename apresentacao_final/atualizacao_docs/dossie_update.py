@@ -40,7 +40,7 @@ txt1 = ("No corte de 22/11/2026, os 16 riscos estão distribuídos em 2 crítico
         "R$ 19.328,65 (10% × R$ 193.286,52, o BAC com a proposta; sem a proposta seria 10% × R$ 189.600 = R$ 18.960,00) permanece intacta.")
 txt2 = ("As ações A1 (sprint 6), A2, A4 e A5 (13/11/2026) foram concluídas e tratam R11 (busca por Full-Text Search do PostgreSQL, ADR-005), "
         "R03 (protocolo do catálogo), R06 (backup e monitoramento) e R07 (checklist LGPD); R06 e R07 seguem com mitigação parcial. O próximo gatilho é 27/11/2026: "
-        "o Beta do R1 valida R02 e R10, a decisão da CR-01 resolve R12 e a minuta do acordo de acionistas trata R16. "
+        "o Beta do R1 valida R02 (o R10 só dá para testar quando o R2 entregar o redirecionamento de afiliados), a decisão da CR-01 resolve R12 e a minuta do acordo de acionistas trata R16. "
         "O status de cada risco e o balanço completo estão na planilha (coluna “Status em 22/11” e aba “Balanço”).")
 anchor = "governança com o novo sócio (R16)."
 i = x.find(anchor)

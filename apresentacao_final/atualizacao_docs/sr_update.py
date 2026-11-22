@@ -124,7 +124,7 @@ bal = [
     ("Riscos materializados", "0", "Nenhum evento de risco ocorreu até 22/11/2026", GREEN),
     ("Reserva de contingência", "R$ 19.328,65", "Intacta: 100% disponível · 10% × R$ 193.286,52 = R$ 19.328,65 (sem a proposta: 10% × R$ 189.600 = R$ 18.960); somada ao BAC compõe a linha de base de custos", GREEN),
     ("Ações concluídas", "4", "A1 (sprint 6) → R11; A2 → R03; A4 → R06 e A5 → R07 (13/11/2026); R06 e R07 com mitigação parcial", GREEN),
-    ("Próximo gatilho", "27/11/2026", "Beta do R1 valida R02 e R10; decisão da CR-01 resolve R12; minuta do acordo de acionistas (A10) trata R16"),
+    ("Próximo gatilho", "27/11/2026", "Beta do R1 valida R02 (o R10 só dá para testar quando o R2 entregar o redirecionamento de afiliados); decisão da CR-01 resolve R12; minuta do acordo de acionistas (A10) trata R16"),
 ]
 bal = [r[:3] + (r[3],) if len(r) == 4 else r for r in bal]
 corr = [
@@ -154,19 +154,22 @@ x = rep(heading("6. Pontos de atenção e ações", 1), new + heading("6. Pontos
 _i23 = x.index("2.3 Antes × depois")
 _j23 = x.index("As horas não mudaram")
 _reg = x[_i23:_j23]
-for _o, _n in [("R$ 18.960,00", "R$ 19.328,65"), ("R$ 9.360,00", "R$ 9.728,65"), ("R$ 209.600,00", "R$ 213.655,17"), ("R$ 102.960,00", "R$ 107.015,17")]:
-    _reg = rep(T(_o), T(_n), src=_reg)
+# a tabela mostra só o efeito do valor-hora (base sem a proposta); a reserva e o orçamento com a proposta vêm no parágrafo abaixo
+_reg = rep(T("Reserva de contingência (10% do BAC)"), T("Reserva de contingência (10% do BAC, sem a proposta)"), src=_reg)
+_reg = rep(T("Orçamento total"), T("Orçamento total (sem a proposta)"), src=_reg)
 x = x[:_i23] + _reg + x[_j23:]
 _k = x.index("</w:p>", x.index("As horas não mudaram")) + len("</w:p>")
 _RF = '<w:rFonts w:ascii="Arial" w:cs="Arial" w:eastAsia="Arial" w:hAnsi="Arial"/>'
-_par = ('<w:p><w:pPr><w:spacing w:after="100" w:line="276"/></w:pPr><w:r><w:rPr>' + _RF + '<w:b/><w:bCs/></w:rPr>' + T("Como chegamos ao orçamento total: ") + '</w:r>'
-        '<w:r><w:rPr>' + _RF + '</w:rPr>' + T("a reserva de contingência é 10% do BAC com a proposta de investimento (R$ 193.286,52) = R$ 19.328,65. "
+_par = ('<w:p><w:pPr><w:spacing w:after="100" w:line="276"/></w:pPr><w:r><w:rPr>' + _RF + '<w:b/><w:bCs/></w:rPr>' + T("Com a proposta de investimento (CR-01): ") + '</w:r>'
+        '<w:r><w:rPr>' + _RF + '</w:rPr>' + T("a tabela acima mostra só o efeito do valor-hora, sem a proposta (reserva de R$ 18.960,00 = 10% × R$ 189.600 e orçamento total de R$ 209.600,00). "
+        "Com a proposta, o BAC sobe para R$ 193.286,52 e a reserva de contingência é 10% × R$ 193.286,52 = R$ 19.328,65. "
         "Orçamento total = R$ 193.286,52 + R$ 19.328,65 + R$ 1.040,00 de infraestrutura = R$ 213.655,17. "
-        "Sem a proposta, o BAC continua R$ 189.600,00, a reserva seria R$ 18.960,00 e o orçamento total R$ 209.600,00. "
-        "A reserva, somada ao BAC, compõe a linha de base de custos.") + '</w:r></w:p>')
+                "A reserva, somada ao BAC, compõe a linha de base de custos.") + '</w:r></w:p>')
 x = x[:_k] + _par + x[_k:]
 x = rep("Reserva de contingência: R$ 18.960,00 (10% do BAC revisado), intacta.",
         "Reserva de contingência: R$ 19.328,65 = 10% × R$ 193.286,52 (BAC com a proposta), intacta; sem a proposta seria 10% × R$ 189.600,00 = R$ 18.960,00.")
+x = rep("iguala o aporte em 12 meses", "iguala o aporte em 11,9 meses")
+x = rep(T("Reserva de contingência do aporte (15%)"), T("Folga de caixa do aporte (15%)"))
 x = rep("Ganho líquido (receita antecipada − custo extra)", "Ganho líquido da antecipação (receita antecipada − custo extra)")
 x = rep("quando o tráfego real já pode ser medido.", "quando o tráfego real já pode ser medido. O aporte de R$ 60.000,00 é medido pelo payback (11,9 meses no cenário base), não pelo ganho líquido.")
 

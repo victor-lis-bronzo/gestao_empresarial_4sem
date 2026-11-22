@@ -51,7 +51,7 @@ status = {
     "R07": "Ação A5 concluída (13/11) · mitigação parcial",
     "R08": "Ativo · em monitoramento",
     "R09": "Ativo · em monitoramento",
-    "R10": "Ativo · validação no beta do R1 (27/11)",
+    "R10": "Ativo · só testável no R2 (redirecionamento de afiliados)",
     "R11": "Ação A1 concluída (sprint 6)",
     "R12": "Ativo · decisão da CR-01 em 27/11",
     "R13": "Ativo · triagem desde 23/11 (A9)",
@@ -80,7 +80,7 @@ for cf in old:
 ws.conditional_formatting = new
 ws["B3"] = ("Identificação, avaliação, estratégias de mitigação e contingência do projeto — "
             "Matriz v3 (R15 e R16 vêm do Status Report v3.0) — Corte 22/11/2026")
-note = ws.cell(LAST + 2, 2, "Nenhum risco materializado até 22/11/2026 · reserva de contingência de R$ 19.328,65 intacta · balanço completo na aba \"Balanço\".")
+note = ws.cell(LAST + 2, 2, "Nenhum risco materializado até 22/11/2026 · reserva de contingência de R$ 19.328,65 intacta (10% × R$ 193.286,52; sem a proposta: 10% × R$ 189.600 = R$ 18.960) · balanço completo na aba \"Balanço\".")
 note.font = Font(name=ws["B3"].font.name, size=9, italic=True, color="595959")
 
 # ---------- aba de balanço ----------
@@ -112,7 +112,7 @@ linhas = [
     ("Reserva usada (R$)", 0, '"R$" #,##0.00;-"R$" #,##0.00;"-"', "Nenhum uso até 22/11/2026"),
     ("Reserva disponível (R$)", "=C14-C15", '"R$" #,##0.00', ""),
     ("Reserva disponível (%)", "=IF(C14=0,0,C16/C14)", "0.0%", ""),
-    ("Próximo gatilho", "27/11/2026", "@", "Beta do R1 valida R02 e R10; decisão da CR-01 resolve R12; acordo de acionistas (A10) trata R16"),
+    ("Próximo gatilho", "27/11/2026", "@", "Beta do R1 valida R02 (o R10 só dá para testar no R2); decisão da CR-01 resolve R12; acordo de acionistas (A10) trata R16"),
 ]
 body = ws.cell(FIRST, 4)
 for i, (ind, val, fmt, leit) in enumerate(linhas):
