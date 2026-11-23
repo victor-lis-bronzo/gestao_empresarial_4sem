@@ -18,6 +18,7 @@ O HardDex ("Simplificando o hardware!") é uma plataforma web que traduz especif
 |---|---|---|
 | 12/10/2026 | 1ª apresentação: Status Report RS-HDX-2026-10 (corte 12/10), slides e cronograma | [`apresentacao_1/`](apresentacao_1/) |
 | 12/11/2026 | Reunião com os GPs + revisão após o feedback do professor: Status Report v2 (corte 12/11), proposta de investimento CR-01, novo Gantt e pauta dos GPs | [`apresentacao_2.0/`](apresentacao_2.0/) |
+| 23/11/2026 | Apresentação final: deck v3 (completo e de 10 min), Status Report, Dossiê e Matriz de Riscos v3 (corte 22/11) | [`apresentacao_final/`](apresentacao_final/) (veja o [`CLAUDE.md`](CLAUDE.md)) |
 | 07/12/2026 | Entrega final do Status Report na disciplina | — |
 
 O que mudou de uma versão para a outra, e por quê, está no [`CHANGELOG.md`](CHANGELOG.md).
