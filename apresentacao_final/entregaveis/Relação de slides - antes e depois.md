@@ -67,6 +67,51 @@ Mesma paleta, mesmos ícones e mesma estrutura de cartões. O que mudou: fonte m
 - **Sem jargão nos slides:** "plano original" (era BL-PLAN), "entrega do R1/R2" (era BL-R1/BL-R2), "servidor" (era NGINX, VPS e API), "login com Google" (era OAuth), "links de afiliado" (era UTMs), "revisão de código" (era PR). Os textos de mitigação foram reescritos em português simples. VP, VA, CR, IDP, IDC e BAC ficam, sempre com o nome ao lado.
 - **Cada número grande tem uma linha curta** dizendo o que significa. A conta completa está nas notas do orador de cada slide.
 
+## Versão de 10 minutos (arquivo à parte)
+
+`Gestão - HardDex v3 (10 min).pptx` usa os mesmos slides e notas do deck completo, só em outra ordem. Ficam 19 slides na apresentação (cerca de 9 min 45 s). Depois do encerramento vem um divisor "ANEXO" com 9 slides para responder perguntas. O deck de 28 slides continua existindo.
+
+**Critério:** fica no principal tudo que o professor cobrou na 1ª banca e o núcleo do Status Report da disciplina.
+- **Valores e valor-hora:** slides 3 e 5.
+- **Métricas da venda de ações:** slides 11 a 15.
+- **Novo Gantt:** slide 4.
+- **Status, EVM, marcos, riscos e balanço:** slides 2, 6 a 8, 16 e 17.
+- **Decisão:** slide 18.
+
+| 10 min | Deck completo | Slide | Tempo | Quem (sugestão) |
+|---|---|---|---|---|
+| 1 | 1 | Capa | 10 s | Mirela |
+| 2 | 2 | Status executivo | 40 s | Mirela |
+| 3 | 3 | Correções pós-banca: custos | 35 s | Mirela |
+| 4 | 4 | Correções pós-banca: tese e cronograma | 30 s | Mirela |
+| 5 | 5 | Custo-hora por senioridade | 35 s | Victor |
+| 6 | 7 | Valor agregado (BAC, VP, VA, CR) | 40 s | Victor |
+| 7 | 8 | Variações e reserva | 30 s | Victor |
+| 8 | 10 | Próximos marcos até o R1 | 30 s | Victor |
+| 9 | 11 | Gargalo do plano original | 30 s | Ana |
+| 10 | 12 | Solução proposta | 30 s | Ana |
+| 11 | 13 | Impacto no prazo | 30 s | Ana |
+| 12 | 14 | Impacto no custo | 35 s | Ana |
+| 13 | 15 | Uso do caixa | 30 s | Mariana |
+| 14 | 16 | Valor da empresa e sócios | 35 s | Mariana |
+| 15 | 17 | Retorno dos afiliados | 40 s | Yago |
+| 16 | 19 | Riscos críticos (R02 e R10) | 35 s | Yago |
+| 17 | 26 | Balanço de riscos | 30 s | Yago |
+| 18 | 27 | Decisão solicitada | 35 s | Mirela |
+| 19 | 28 | Encerramento | 5 s | Mirela |
+
+**Anexo (slide 20 é o divisor):**
+
+| 10 min | Deck completo | Slide | Por que saiu do principal |
+|---|---|---|---|
+| 21 | 6 | O orçamento em 3 números | Repete os slides 3 e 5 |
+| 22 | 9 | Entrega do semestre (tecnologias) | Detalhe técnico; os 81,25% foram para a nota do slide 8 |
+| 23 | 18 | Aporte em 2 parcelas | A decisão (slide 18) já cita as 2 parcelas |
+| 24 | 20 | Riscos da proposta (R12 e R14) | Citados na nota do balanço (slide 17) |
+| 25 a 29 | 21 a 25 | Mitigação risco a risco (R01 a R16) | Detalhe para perguntas |
+
+No PowerPoint, durante a apresentação, dá para pular direto para um slide do anexo: digite o número e aperte Enter.
+
 ## Arquivos desta pasta
 
 - `Gestão - HardDex v3.pptx`: o deck leve (28 slides, com notas do orador).

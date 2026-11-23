@@ -307,7 +307,7 @@ function sec(t) { section = t; pres.addSection({ title: t }); }
     const steps = [
       ["LuFlag", "02 · 27/11/2026", "Beta R1 & Decisão", "Versão beta no ar e decisão formal do investidor sobre a proposta."],
       ["LuLock", "03 · 30/11/2026", "Versão candidata", "Congelamento do código e validação final da versão candidata."],
-      ["LuRocket", "04 · 06/12/2026", "R1 em Produção", "Versão 1.0 no ar, confirmada. Não dá para acelerar: incluir gente agora atrasaria, porque o time novo precisa de tempo para aprender."],
+      ["LuRocket", "04 · 06/12/2026", "R1 em Produção", "Versão 1.0 no ar, confirmada. Não dá para acelerar: gente nova agora atrasaria."],
     ];
     const cw = (CW - 2 * 0.4) / 3;
     const centers = [0, 1, 2].map(i => MX + i * (cw + 0.4) + cw / 2);
